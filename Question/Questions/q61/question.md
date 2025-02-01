@@ -1,0 +1,3 @@
+4.10. By how much does the relative vorticity change for a column of fluid in a rotating cylinder if the column is moved from the center of the tank to a distance 50 cm from the center? The tank is rotating at the rate of 20 revolutions per minute, the depth of the fluid at the center is 10 cm , and the fluid is initially in solid-body rotation.
+
+Solution: Potential vorticity is conserved: $\left(\frac{\zeta_{0}+2 \Omega}{H_{0}}\right)=\left(\frac{\zeta_{1}+2 \Omega}{H_{1}}\right)$ with $H_{0}=10 \mathrm{~cm}$ and $H_{1}=H_{0}+\Omega^{2} r^{2} / 2 g$ (from Problem 4.9). But, $\zeta_{0}=0$ and $\Omega=2.09 \mathrm{rad} / \mathrm{s}$. Thus, $\zeta_{1}=\left(\frac{H_{1}-H_{0}}{H_{0}}\right) 2 \Omega=\frac{(5.57)(4.18)}{(10)}=2.3 \mathrm{~s}^{-1}$.

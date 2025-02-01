@@ -1,0 +1,7 @@
+10.10. Consider a thermally stratified liquid contained in a rotating annulus of inner radius 0.8 m , outer radius 1.0 m , and depth 0.1 m . The temperature at the bottom boundary is held constant at $T_{0}$. The fluid is assumed to satisfy the equation of state (10.75) with $\rho_{0}=10^{3} \mathrm{~kg} \mathrm{~m}^{-3}$ and $\varepsilon=2 \times 10^{-4} \mathrm{~K}^{-1}$. If the temperature increases linearly with height along the outer radial boundary at a rate of $1^{\circ} \mathrm{C} \mathrm{cm}^{-1}$ and is constant with height along the inner radial boundary, determine the geostrophic velocity at the upper boundary for a rotation rate of $\Omega=1 \mathrm{rad} \mathrm{s}^{-1}$. (Assume that the temperature depends linearly on radius at each level.)
+
+Solution: From equation (10.76) $\frac{\partial u_{g}}{\partial z}=\left(\frac{\varepsilon g}{2 \Omega}\right) \frac{\partial T}{\partial r}$ where the $r$-coordinate is taken to be the distance from the inner wall. Then $T(r, z)=T_{0}+(r / L)\left[z(d T / d z]\right.$, with $d T / d z$ the temperature gradient along the outer wall. Thus, $\frac{\partial u_{g}}{\partial z}=\left(\frac{\varepsilon g}{2 \Omega}\right)\left(\frac{d T}{d z}\right)\left(\frac{z}{L}\right)$, and
+
+$$
+u_{g}=\left(\frac{\varepsilon g}{2 \Omega L}\right)\left(\frac{d T}{d z}\right) \int_{0}^{H} z d z=\frac{\left(2 \times 10^{-4}\right)(9.8)}{(2)(0.2)}(100) \frac{(0.1)^{2}}{2}=0.00245 \mathrm{~m} \mathrm{~s}^{-1}
+$$

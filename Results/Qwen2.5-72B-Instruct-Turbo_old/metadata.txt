@@ -1,0 +1,8 @@
+{
+    "total_infer_time": 1420.5547602176666,
+    "model": "together",
+    "max_new_tokens": 8192,
+    "Batch Number": 90,
+    "Batch Size": 30,
+    "total_time": 1434.114464044571
+}

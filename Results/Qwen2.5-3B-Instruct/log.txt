@@ -1,0 +1,113 @@
+Initializing Model...
+Model Initialization Completed.
+Filtering dataset...
+Evaluating...
+Batch 0/53 completed. Questions 64/3350 completed.
+Time taken: 2112.8016018867493 seconds.
+Batch 1/53 completed. Questions 128/3350 completed.
+Time taken: 163.2058506011963 seconds.
+Batch 2/53 completed. Questions 192/3350 completed.
+Time taken: 268.4664554595947 seconds.
+Batch 3/53 completed. Questions 256/3350 completed.
+Time taken: 148.76432585716248 seconds.
+Batch 4/53 completed. Questions 320/3350 completed.
+Time taken: 2096.6879410743713 seconds.
+Batch 5/53 completed. Questions 384/3350 completed.
+Time taken: 130.2108509540558 seconds.
+Batch 6/53 completed. Questions 448/3350 completed.
+Time taken: 180.95780992507935 seconds.
+Batch 7/53 completed. Questions 512/3350 completed.
+Time taken: 227.62104868888855 seconds.
+Batch 8/53 completed. Questions 576/3350 completed.
+Time taken: 73.01417469978333 seconds.
+Batch 9/53 completed. Questions 640/3350 completed.
+Time taken: 104.98302292823792 seconds.
+Batch 10/53 completed. Questions 704/3350 completed.
+Time taken: 175.30716395378113 seconds.
+Batch 11/53 completed. Questions 768/3350 completed.
+Time taken: 154.64260149002075 seconds.
+Batch 12/53 completed. Questions 832/3350 completed.
+Time taken: 90.8050320148468 seconds.
+Batch 13/53 completed. Questions 896/3350 completed.
+Time taken: 111.64878463745117 seconds.
+Batch 14/53 completed. Questions 960/3350 completed.
+Time taken: 152.63594341278076 seconds.
+Batch 15/53 completed. Questions 1024/3350 completed.
+Time taken: 2083.5516197681427 seconds.
+Batch 16/53 completed. Questions 1088/3350 completed.
+Time taken: 114.31259727478027 seconds.
+Batch 17/53 completed. Questions 1152/3350 completed.
+Time taken: 130.70228338241577 seconds.
+Batch 18/53 completed. Questions 1216/3350 completed.
+Time taken: 2220.9974892139435 seconds.
+Batch 19/53 completed. Questions 1280/3350 completed.
+Time taken: 2225.457136631012 seconds.
+Batch 20/53 completed. Questions 1344/3350 completed.
+Time taken: 2126.18962597847 seconds.
+Batch 21/53 completed. Questions 1408/3350 completed.
+Time taken: 2180.3633856773376 seconds.
+Batch 22/53 completed. Questions 1472/3350 completed.
+Time taken: 283.4306902885437 seconds.
+Batch 23/53 completed. Questions 1536/3350 completed.
+Time taken: 2135.238856315613 seconds.
+Batch 24/53 completed. Questions 1600/3350 completed.
+Time taken: 130.44262075424194 seconds.
+Batch 25/53 completed. Questions 1664/3350 completed.
+Time taken: 178.73595118522644 seconds.
+Batch 26/53 completed. Questions 1728/3350 completed.
+Time taken: 205.83898258209229 seconds.
+Batch 27/53 completed. Questions 1792/3350 completed.
+Time taken: 230.3344759941101 seconds.
+Batch 28/53 completed. Questions 1856/3350 completed.
+Time taken: 99.99263978004456 seconds.
+Batch 29/53 completed. Questions 1920/3350 completed.
+Time taken: 167.19349646568298 seconds.
+Batch 30/53 completed. Questions 1984/3350 completed.
+Time taken: 214.83314299583435 seconds.
+Batch 31/53 completed. Questions 2048/3350 completed.
+Time taken: 166.9125463962555 seconds.
+Batch 32/53 completed. Questions 2112/3350 completed.
+Time taken: 127.43994665145874 seconds.
+Batch 33/53 completed. Questions 2176/3350 completed.
+Time taken: 2091.3866305351257 seconds.
+Batch 34/53 completed. Questions 2240/3350 completed.
+Time taken: 86.09315991401672 seconds.
+Batch 35/53 completed. Questions 2304/3350 completed.
+Time taken: 210.7374153137207 seconds.
+Batch 36/53 completed. Questions 2368/3350 completed.
+Time taken: 2315.675487279892 seconds.
+Batch 37/53 completed. Questions 2432/3350 completed.
+Time taken: 321.15900588035583 seconds.
+Batch 38/53 completed. Questions 2496/3350 completed.
+Time taken: 239.29176425933838 seconds.
+Batch 39/53 completed. Questions 2560/3350 completed.
+Time taken: 202.49980473518372 seconds.
+Batch 40/53 completed. Questions 2624/3350 completed.
+Time taken: 184.11439681053162 seconds.
+Batch 41/53 completed. Questions 2688/3350 completed.
+Time taken: 2173.540796995163 seconds.
+Batch 42/53 completed. Questions 2752/3350 completed.
+Time taken: 260.8496425151825 seconds.
+Batch 43/53 completed. Questions 2816/3350 completed.
+Time taken: 2135.6341619491577 seconds.
+Batch 44/53 completed. Questions 2880/3350 completed.
+Time taken: 219.72821640968323 seconds.
+Batch 45/53 completed. Questions 2944/3350 completed.
+Time taken: 217.20179915428162 seconds.
+Batch 46/53 completed. Questions 3008/3350 completed.
+Time taken: 159.5094313621521 seconds.
+Batch 47/53 completed. Questions 3072/3350 completed.
+Time taken: 2152.925704717636 seconds.
+Batch 48/53 completed. Questions 3136/3350 completed.
+Time taken: 172.19294428825378 seconds.
+Batch 49/53 completed. Questions 3200/3350 completed.
+Time taken: 143.699232339859 seconds.
+Batch 50/53 completed. Questions 3264/3350 completed.
+Time taken: 151.0466558933258 seconds.
+Batch 51/53 completed. Questions 3328/3350 completed.
+Time taken: 2130.6375501155853 seconds.
+Batch 52/53 completed. Questions 3350/3350 completed.
+Time taken: 63.8940691947937 seconds.
+Evaluation Completed.
+Runing Analysis...
+Analysis Completed.

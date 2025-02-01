@@ -1,0 +1,8 @@
+{
+    "total_infer_time": 9726.980452537537,
+    "model": "deepseek_reasoner",
+    "max_new_tokens": 8192,
+    "Batch Number": 42,
+    "Batch Size": 16,
+    "total_time": 9727.61775803566
+}

@@ -1,0 +1,49 @@
+Initializing Model...
+Model Initialization Completed.
+Filtering dataset...
+Evaluating...
+Batch 0/21 completed. Questions 32/670 completed.
+Time taken: 355.63644099235535 seconds.
+Batch 1/21 completed. Questions 64/670 completed.
+Time taken: 347.82495880126953 seconds.
+Batch 2/21 completed. Questions 96/670 completed.
+Time taken: 297.4235427379608 seconds.
+Batch 3/21 completed. Questions 128/670 completed.
+Time taken: 467.7793629169464 seconds.
+Batch 4/21 completed. Questions 160/670 completed.
+Time taken: 283.48640990257263 seconds.
+Batch 5/21 completed. Questions 192/670 completed.
+Time taken: 348.6847388744354 seconds.
+Batch 6/21 completed. Questions 224/670 completed.
+Time taken: 368.9413731098175 seconds.
+Batch 7/21 completed. Questions 256/670 completed.
+Time taken: 541.5373928546906 seconds.
+Batch 8/21 completed. Questions 288/670 completed.
+Time taken: 466.27507400512695 seconds.
+Batch 9/21 completed. Questions 320/670 completed.
+Time taken: 349.0817279815674 seconds.
+Batch 10/21 completed. Questions 352/670 completed.
+Time taken: 479.0344898700714 seconds.
+Batch 11/21 completed. Questions 384/670 completed.
+Time taken: 320.22196984291077 seconds.
+Batch 12/21 completed. Questions 416/670 completed.
+Time taken: 392.1269471645355 seconds.
+Batch 13/21 completed. Questions 448/670 completed.
+Time taken: 398.67470693588257 seconds.
+Batch 14/21 completed. Questions 480/670 completed.
+Time taken: 496.185555934906 seconds.
+Batch 15/21 completed. Questions 512/670 completed.
+Time taken: 554.7374088764191 seconds.
+Batch 16/21 completed. Questions 544/670 completed.
+Time taken: 440.67925810813904 seconds.
+Batch 17/21 completed. Questions 576/670 completed.
+Time taken: 412.8125681877136 seconds.
+Batch 18/21 completed. Questions 608/670 completed.
+Time taken: 530.4912488460541 seconds.
+Batch 19/21 completed. Questions 640/670 completed.
+Time taken: 425.35895919799805 seconds.
+Batch 20/21 completed. Questions 670/670 completed.
+Time taken: 426.7372610569 seconds.
+Evaluation Completed.
+Runing Analysis...
+Analysis Completed.

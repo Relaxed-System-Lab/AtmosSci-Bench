@@ -1,0 +1,7 @@
+{
+    "total_infer_time": 12261.878536701202,
+    "model": "deepseek_v3",
+    "Batch Number": 210,
+    "Batch Size": 16,
+    "total_time": 12264.725440740585
+}

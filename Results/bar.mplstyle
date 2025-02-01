@@ -1,0 +1,31 @@
+figure.facecolor: "#ffffff"
+axes.facecolor: "#f1f5f9"
+axes.edgecolor: "#ffffff"
+axes.labelcolor: "#515a85"
+xtick.color: "#515a8599"
+ytick.color: "#515a8599"
+xtick.major.size: 5
+xtick.minor.size: 2
+ytick.major.size: 5
+ytick.minor.size: 2
+axes.grid: 0
+grid.linestyle: "--"
+grid.linewidth: 0.5
+grid.color: "#515a85"
+patch.edgecolor:"#f4e4dc"
+patch.linewidth: 0.5
+axes.prop_cycle: cycler("color", ["#8e93af", "#d7a6b3", "#e8cda5", "#9dc1c5"])
+axes.titleweight: bold
+axes.titlecolor: "#515a85"
+figure.titlesize: 12
+figure.titleweight: bold
+text.color: "#515a85"
+axes.labelweight: bold
+legend.edgecolor: "#f1f5f9"
+
+# ["#fed2d2", "#c1d8ed", "#f3e2b2", "#b8dcdc", "#e1cfe5"]
+# ["#feb4b4", "#99bee1", "#ecd69e", "#8ac6c6", "#cdb0d5"]
+# ["#e97a7a", "#5595d1", "#e5c679", "#5db4b4", "#bb7dcc"]
+# ["#214e81", "#5b78a8", "#8d9eb2", "#dc9fb0", "#c2768b"]
+# ["#214e81", "#456991", "#6983a2", "#8d9eb2", "#b59fb1", "#dc9fb0", "#cf8b9e", "#c2768b"]
+# ["#515a85", "#69a1a7", "#ffffff", "#e4c696", "#c0627a"]

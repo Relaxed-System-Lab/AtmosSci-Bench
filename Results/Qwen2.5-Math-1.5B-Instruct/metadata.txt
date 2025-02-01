@@ -1,0 +1,9 @@
+{
+    "total_infer_time": 7947.017920970917,
+    "model": "Qwen/Qwen2.5-Math-1.5B-Instruct",
+    "max_new_tokens": 8192,
+    "CUDA_VISIBLE_DEVICES": "0,1,2,3,4,5,6,7",
+    "Batch Number": 84,
+    "Batch Size": 8,
+    "total_time": 7947.50760102272
+}

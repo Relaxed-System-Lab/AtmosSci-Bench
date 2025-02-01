@@ -1,0 +1,3 @@
+2.5. Suppose a 1-kg parcel of dry air is rising at a constant vertical velocity. If the parcel is being heated by radiation at the rate of $10^{-1} \mathrm{~W} \mathrm{~kg}^{-1}$, what must the speed of rise be to maintain the parcel at a constant temperature?
+
+Solution: From (2.42) $c_{p} D T / D t-\alpha D p / D t=J$, but from the hydrostatic equation $\alpha D p=-g D z$, Thus, $c_{p} D T / D t+g D z /$ $D t=c_{p} D T / D t+g w=J$, so that for constant parcel temperature $(D T / D t=0), w=J / g=\left(10^{-1} \mathrm{Wkg}^{-1}\right) /$ $\left(9.8 \mathrm{~m} \mathrm{~s}^{-2}\right)=0.0102 \mathrm{~m} \mathrm{~s}^{-1}$ or about $1.0 \mathrm{~cm} \mathrm{~s}^{-1}$.

@@ -1,0 +1,160 @@
+{
+    "total_infer_time": 8703.731396198273,
+    "model": "together",
+    "max_new_tokens": 16384,
+    "usages": [
+        {
+            "prompt_tokens": 267,
+            "completion_tokens": 1113,
+            "total_tokens": 1380
+        },
+        {
+            "prompt_tokens": 265,
+            "completion_tokens": 2343,
+            "total_tokens": 2608
+        },
+        {
+            "prompt_tokens": 266,
+            "completion_tokens": 1351,
+            "total_tokens": 1617
+        },
+        {
+            "prompt_tokens": 265,
+            "completion_tokens": 1889,
+            "total_tokens": 2154
+        },
+        {
+            "prompt_tokens": 267,
+            "completion_tokens": 1852,
+            "total_tokens": 2119
+        },
+        {
+            "prompt_tokens": 266,
+            "completion_tokens": 1874,
+            "total_tokens": 2140
+        },
+        {
+            "prompt_tokens": 267,
+            "completion_tokens": 1487,
+            "total_tokens": 1754
+        },
+        {
+            "prompt_tokens": 267,
+            "completion_tokens": 1322,
+            "total_tokens": 1589
+        },
+        {
+            "prompt_tokens": 720,
+            "completion_tokens": 7619,
+            "total_tokens": 8339
+        },
+        {
+            "prompt_tokens": 751,
+            "completion_tokens": 11630,
+            "total_tokens": 12381
+        },
+        {
+            "prompt_tokens": 357,
+            "completion_tokens": 1963,
+            "total_tokens": 2320
+        },
+        {
+            "prompt_tokens": 338,
+            "completion_tokens": 1309,
+            "total_tokens": 1647
+        },
+        {
+            "prompt_tokens": 251,
+            "completion_tokens": 5831,
+            "total_tokens": 6082
+        },
+        {
+            "prompt_tokens": 275,
+            "completion_tokens": 16384,
+            "total_tokens": 16659
+        },
+        {
+            "prompt_tokens": 271,
+            "completion_tokens": 3552,
+            "total_tokens": 3823
+        },
+        {
+            "prompt_tokens": 268,
+            "completion_tokens": 2684,
+            "total_tokens": 2952
+        },
+        {
+            "prompt_tokens": 269,
+            "completion_tokens": 5106,
+            "total_tokens": 5375
+        },
+        {
+            "prompt_tokens": 268,
+            "completion_tokens": 4957,
+            "total_tokens": 5225
+        },
+        {
+            "prompt_tokens": 269,
+            "completion_tokens": 6111,
+            "total_tokens": 6380
+        },
+        {
+            "prompt_tokens": 271,
+            "completion_tokens": 4581,
+            "total_tokens": 4852
+        },
+        {
+            "prompt_tokens": 277,
+            "completion_tokens": 5008,
+            "total_tokens": 5285
+        },
+        {
+            "prompt_tokens": 276,
+            "completion_tokens": 3339,
+            "total_tokens": 3615
+        },
+        {
+            "prompt_tokens": 257,
+            "completion_tokens": 4070,
+            "total_tokens": 4327
+        },
+        {
+            "prompt_tokens": 257,
+            "completion_tokens": 2835,
+            "total_tokens": 3092
+        },
+        {
+            "prompt_tokens": 198,
+            "completion_tokens": 5722,
+            "total_tokens": 5920
+        },
+        {
+            "prompt_tokens": 227,
+            "completion_tokens": 2467,
+            "total_tokens": 2694
+        },
+        {
+            "prompt_tokens": 228,
+            "completion_tokens": 2020,
+            "total_tokens": 2248
+        },
+        {
+            "prompt_tokens": 244,
+            "completion_tokens": 7000,
+            "total_tokens": 7244
+        },
+        {
+            "prompt_tokens": 253,
+            "completion_tokens": 16384,
+            "total_tokens": 16637
+        },
+        {
+            "prompt_tokens": 255,
+            "completion_tokens": 3412,
+            "total_tokens": 3667
+        }
+    ],
+    "Batch Number": 21,
+    "Batch Size": 32,
+    "total_time": 8704.75698876381
+}

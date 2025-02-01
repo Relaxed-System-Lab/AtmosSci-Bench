@@ -1,0 +1,9 @@
+{
+    "total_infer_time": 24822.958134889603,
+    "model": "deepseek-ai/deepseek-math-7b-rl",
+    "max_new_tokens": 4096,
+    "CUDA_VISIBLE_DEVICES": "0",
+    "Batch Number": 335,
+    "Batch Size": 2,
+    "total_time": 24824.535952329636
+}

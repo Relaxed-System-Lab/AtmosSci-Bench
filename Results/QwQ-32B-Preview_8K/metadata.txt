@@ -1,0 +1,9 @@
+{
+    "total_infer_time": 117204.5915362835,
+    "model": "Qwen/QwQ-32B-Preview",
+    "max_new_tokens": 8192,
+    "CUDA_VISIBLE_DEVICES": "0,1,2,3,4,5,6,7",
+    "Batch Number": 42,
+    "Batch Size": 16,
+    "total_time": 117205.06844854355
+}

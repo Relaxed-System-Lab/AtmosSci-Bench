@@ -1,0 +1,1012 @@
+Initializing Model...
+Model Initialization Completed.
+Filtering dataset...
+Evaluating...
+Batch 0/335 completed. Questions 2/670 completed.
+Time taken: 116.05715107917786 seconds.
+Tokenizer time: 0.05192708969116211, Inference time: 116.0052239894867
+Batch 1/335 completed. Questions 4/670 completed.
+Time taken: 21.48287796974182 seconds.
+Tokenizer time: 0.007117271423339844, Inference time: 21.47576069831848
+Batch 2/335 completed. Questions 6/670 completed.
+Time taken: 114.10417461395264 seconds.
+Tokenizer time: 0.005466461181640625, Inference time: 114.098708152771
+Batch 3/335 completed. Questions 8/670 completed.
+Time taken: 114.1382520198822 seconds.
+Tokenizer time: 0.008464574813842773, Inference time: 114.12978744506836
+Batch 4/335 completed. Questions 10/670 completed.
+Time taken: 114.15587258338928 seconds.
+Tokenizer time: 0.007557392120361328, Inference time: 114.14831519126892
+Batch 5/335 completed. Questions 12/670 completed.
+Time taken: 113.69848132133484 seconds.
+Tokenizer time: 0.009832143783569336, Inference time: 113.68864917755127
+Batch 6/335 completed. Questions 14/670 completed.
+Time taken: 113.67712950706482 seconds.
+Tokenizer time: 0.007591962814331055, Inference time: 113.66953754425049
+Batch 7/335 completed. Questions 16/670 completed.
+Time taken: 113.65285444259644 seconds.
+Tokenizer time: 0.007681131362915039, Inference time: 113.64517331123352
+Batch 8/335 completed. Questions 18/670 completed.
+Time taken: 107.95506167411804 seconds.
+Tokenizer time: 0.007752895355224609, Inference time: 107.94730877876282
+Batch 9/335 completed. Questions 20/670 completed.
+Time taken: 113.69397711753845 seconds.
+Tokenizer time: 0.007718563079833984, Inference time: 113.68625855445862
+Batch 10/335 completed. Questions 22/670 completed.
+Time taken: 44.685128688812256 seconds.
+Tokenizer time: 0.012045860290527344, Inference time: 44.67308282852173
+Batch 11/335 completed. Questions 24/670 completed.
+Time taken: 120.2587378025055 seconds.
+Tokenizer time: 0.0077936649322509766, Inference time: 120.25094413757324
+Batch 12/335 completed. Questions 26/670 completed.
+Time taken: 10.246660232543945 seconds.
+Tokenizer time: 0.011307716369628906, Inference time: 10.235352516174316
+Batch 13/335 completed. Questions 28/670 completed.
+Time taken: 14.739975452423096 seconds.
+Tokenizer time: 0.006220340728759766, Inference time: 14.733755111694336
+Batch 14/335 completed. Questions 30/670 completed.
+Time taken: 8.016807794570923 seconds.
+Tokenizer time: 0.0068094730377197266, Inference time: 8.009998321533203
+Batch 15/335 completed. Questions 32/670 completed.
+Time taken: 9.223737239837646 seconds.
+Tokenizer time: 0.004338264465332031, Inference time: 9.219398975372314
+Batch 16/335 completed. Questions 34/670 completed.
+Time taken: 113.89480137825012 seconds.
+Tokenizer time: 0.005389213562011719, Inference time: 113.88941216468811
+Batch 17/335 completed. Questions 36/670 completed.
+Time taken: 113.82220506668091 seconds.
+Tokenizer time: 0.00751042366027832, Inference time: 113.81469464302063
+Batch 18/335 completed. Questions 38/670 completed.
+Time taken: 17.98729157447815 seconds.
+Tokenizer time: 0.0072634220123291016, Inference time: 17.98002815246582
+Batch 19/335 completed. Questions 40/670 completed.
+Time taken: 15.32042646408081 seconds.
+Tokenizer time: 0.006544351577758789, Inference time: 15.313882112503052
+Batch 20/335 completed. Questions 42/670 completed.
+Time taken: 16.529581785202026 seconds.
+Tokenizer time: 0.006866931915283203, Inference time: 16.522714853286743
+Batch 21/335 completed. Questions 44/670 completed.
+Time taken: 14.047445297241211 seconds.
+Tokenizer time: 0.006940126419067383, Inference time: 14.040505170822144
+Batch 22/335 completed. Questions 46/670 completed.
+Time taken: 11.234312057495117 seconds.
+Tokenizer time: 0.005417346954345703, Inference time: 11.228894710540771
+Batch 23/335 completed. Questions 48/670 completed.
+Time taken: 106.5698733329773 seconds.
+Tokenizer time: 0.00437164306640625, Inference time: 106.56550168991089
+Batch 24/335 completed. Questions 50/670 completed.
+Time taken: 7.875851392745972 seconds.
+Tokenizer time: 0.0068416595458984375, Inference time: 7.869009733200073
+Batch 25/335 completed. Questions 52/670 completed.
+Time taken: 112.22931838035583 seconds.
+Tokenizer time: 0.0036134719848632812, Inference time: 112.22570490837097
+Batch 26/335 completed. Questions 54/670 completed.
+Time taken: 112.21310544013977 seconds.
+Tokenizer time: 0.006682157516479492, Inference time: 112.20642328262329
+Batch 27/335 completed. Questions 56/670 completed.
+Time taken: 112.2166919708252 seconds.
+Tokenizer time: 0.006722688674926758, Inference time: 112.20996928215027
+Batch 28/335 completed. Questions 58/670 completed.
+Time taken: 111.99691534042358 seconds.
+Tokenizer time: 0.007658720016479492, Inference time: 111.9892566204071
+Batch 29/335 completed. Questions 60/670 completed.
+Time taken: 112.02110886573792 seconds.
+Tokenizer time: 0.006441831588745117, Inference time: 112.01466703414917
+Batch 30/335 completed. Questions 62/670 completed.
+Time taken: 111.99951243400574 seconds.
+Tokenizer time: 0.006331443786621094, Inference time: 111.99318099021912
+Batch 31/335 completed. Questions 64/670 completed.
+Time taken: 112.03166627883911 seconds.
+Tokenizer time: 0.006493330001831055, Inference time: 112.02517294883728
+Batch 32/335 completed. Questions 66/670 completed.
+Time taken: 112.04807472229004 seconds.
+Tokenizer time: 0.00658416748046875, Inference time: 112.04149055480957
+Batch 33/335 completed. Questions 68/670 completed.
+Time taken: 9.21319317817688 seconds.
+Tokenizer time: 0.006903171539306641, Inference time: 9.206290006637573
+Batch 34/335 completed. Questions 70/670 completed.
+Time taken: 11.59999394416809 seconds.
+Tokenizer time: 0.005421876907348633, Inference time: 11.594572067260742
+Batch 35/335 completed. Questions 72/670 completed.
+Time taken: 116.58915853500366 seconds.
+Tokenizer time: 0.005622386932373047, Inference time: 116.58353614807129
+Batch 36/335 completed. Questions 74/670 completed.
+Time taken: 102.13157081604004 seconds.
+Tokenizer time: 0.006638765335083008, Inference time: 102.12493205070496
+Batch 37/335 completed. Questions 76/670 completed.
+Time taken: 18.065438508987427 seconds.
+Tokenizer time: 0.007102012634277344, Inference time: 18.05833649635315
+Batch 38/335 completed. Questions 78/670 completed.
+Time taken: 12.448680400848389 seconds.
+Tokenizer time: 0.0065310001373291016, Inference time: 12.44214940071106
+Batch 39/335 completed. Questions 80/670 completed.
+Time taken: 109.19514465332031 seconds.
+Tokenizer time: 0.005380153656005859, Inference time: 109.1897644996643
+Batch 40/335 completed. Questions 82/670 completed.
+Time taken: 13.69227409362793 seconds.
+Tokenizer time: 0.008398056030273438, Inference time: 13.683876037597656
+Batch 41/335 completed. Questions 84/670 completed.
+Time taken: 10.525162696838379 seconds.
+Tokenizer time: 0.005189657211303711, Inference time: 10.519973039627075
+Batch 42/335 completed. Questions 86/670 completed.
+Time taken: 11.085628509521484 seconds.
+Tokenizer time: 0.004395723342895508, Inference time: 11.081232786178589
+Batch 43/335 completed. Questions 88/670 completed.
+Time taken: 106.30142855644226 seconds.
+Tokenizer time: 0.004733562469482422, Inference time: 106.29669499397278
+Batch 44/335 completed. Questions 90/670 completed.
+Time taken: 17.308531284332275 seconds.
+Tokenizer time: 0.006989479064941406, Inference time: 17.301541805267334
+Batch 45/335 completed. Questions 92/670 completed.
+Time taken: 111.93827605247498 seconds.
+Tokenizer time: 0.0042574405670166016, Inference time: 111.93401861190796
+Batch 46/335 completed. Questions 94/670 completed.
+Time taken: 18.888083934783936 seconds.
+Tokenizer time: 0.006864786148071289, Inference time: 18.881219148635864
+Batch 47/335 completed. Questions 96/670 completed.
+Time taken: 15.630161762237549 seconds.
+Tokenizer time: 0.004436969757080078, Inference time: 15.625724792480469
+Batch 48/335 completed. Questions 98/670 completed.
+Time taken: 112.22694396972656 seconds.
+Tokenizer time: 0.005960941314697266, Inference time: 112.22098302841187
+Batch 49/335 completed. Questions 100/670 completed.
+Time taken: 112.17015552520752 seconds.
+Tokenizer time: 0.006384611129760742, Inference time: 112.16377091407776
+Batch 50/335 completed. Questions 102/670 completed.
+Time taken: 112.13361978530884 seconds.
+Tokenizer time: 0.006661891937255859, Inference time: 112.12695789337158
+Batch 51/335 completed. Questions 104/670 completed.
+Time taken: 106.54048418998718 seconds.
+Tokenizer time: 0.007328510284423828, Inference time: 106.53315567970276
+Batch 52/335 completed. Questions 106/670 completed.
+Time taken: 112.16432905197144 seconds.
+Tokenizer time: 0.006496906280517578, Inference time: 112.15783214569092
+Batch 53/335 completed. Questions 108/670 completed.
+Time taken: 112.2117805480957 seconds.
+Tokenizer time: 0.007462024688720703, Inference time: 112.20431852340698
+Batch 54/335 completed. Questions 110/670 completed.
+Time taken: 106.57460117340088 seconds.
+Tokenizer time: 0.006948232650756836, Inference time: 106.56765294075012
+Batch 55/335 completed. Questions 112/670 completed.
+Time taken: 112.20356607437134 seconds.
+Tokenizer time: 0.007257938385009766, Inference time: 112.19630813598633
+Batch 56/335 completed. Questions 114/670 completed.
+Time taken: 106.6035361289978 seconds.
+Tokenizer time: 0.005472660064697266, Inference time: 106.5980634689331
+Batch 57/335 completed. Questions 116/670 completed.
+Time taken: 112.45180749893188 seconds.
+Tokenizer time: 0.006559133529663086, Inference time: 112.44524836540222
+Batch 58/335 completed. Questions 118/670 completed.
+Time taken: 107.3715443611145 seconds.
+Tokenizer time: 0.006383419036865234, Inference time: 107.36516094207764
+Batch 59/335 completed. Questions 120/670 completed.
+Time taken: 11.072270154953003 seconds.
+Tokenizer time: 0.007238149642944336, Inference time: 11.065032005310059
+Batch 60/335 completed. Questions 122/670 completed.
+Time taken: 113.05050158500671 seconds.
+Tokenizer time: 0.003451824188232422, Inference time: 113.04704976081848
+Batch 61/335 completed. Questions 124/670 completed.
+Time taken: 70.23672103881836 seconds.
+Tokenizer time: 0.006851911544799805, Inference time: 70.22986912727356
+Batch 62/335 completed. Questions 126/670 completed.
+Time taken: 113.04805207252502 seconds.
+Tokenizer time: 0.007109642028808594, Inference time: 113.04094243049622
+Batch 63/335 completed. Questions 128/670 completed.
+Time taken: 8.209635019302368 seconds.
+Tokenizer time: 0.00814366340637207, Inference time: 8.201491355895996
+Batch 64/335 completed. Questions 130/670 completed.
+Time taken: 114.20248866081238 seconds.
+Tokenizer time: 0.004635334014892578, Inference time: 114.19785332679749
+Batch 65/335 completed. Questions 132/670 completed.
+Time taken: 114.1153359413147 seconds.
+Tokenizer time: 0.007307529449462891, Inference time: 114.10802841186523
+Batch 66/335 completed. Questions 134/670 completed.
+Time taken: 114.13500547409058 seconds.
+Tokenizer time: 0.007266998291015625, Inference time: 114.12773847579956
+Batch 67/335 completed. Questions 136/670 completed.
+Time taken: 114.15714359283447 seconds.
+Tokenizer time: 0.005875110626220703, Inference time: 114.15126848220825
+Batch 68/335 completed. Questions 138/670 completed.
+Time taken: 111.66266918182373 seconds.
+Tokenizer time: 0.006982326507568359, Inference time: 111.65568685531616
+Batch 69/335 completed. Questions 140/670 completed.
+Time taken: 11.621046304702759 seconds.
+Tokenizer time: 0.0046765804290771484, Inference time: 11.616369724273682
+Batch 70/335 completed. Questions 142/670 completed.
+Time taken: 111.64816355705261 seconds.
+Tokenizer time: 0.0038881301879882812, Inference time: 111.64427542686462
+Batch 71/335 completed. Questions 144/670 completed.
+Time taken: 111.67786145210266 seconds.
+Tokenizer time: 0.005095720291137695, Inference time: 111.67276573181152
+Batch 72/335 completed. Questions 146/670 completed.
+Time taken: 111.67609429359436 seconds.
+Tokenizer time: 0.00700831413269043, Inference time: 111.66908597946167
+Batch 73/335 completed. Questions 148/670 completed.
+Time taken: 111.9156665802002 seconds.
+Tokenizer time: 0.00553131103515625, Inference time: 111.91013526916504
+Batch 74/335 completed. Questions 150/670 completed.
+Time taken: 111.89700531959534 seconds.
+Tokenizer time: 0.005012989044189453, Inference time: 111.89199233055115
+Batch 75/335 completed. Questions 152/670 completed.
+Time taken: 111.89004921913147 seconds.
+Tokenizer time: 0.005231142044067383, Inference time: 111.8848180770874
+Batch 76/335 completed. Questions 154/670 completed.
+Time taken: 111.8955762386322 seconds.
+Tokenizer time: 0.006474971771240234, Inference time: 111.88910126686096
+Batch 77/335 completed. Questions 156/670 completed.
+Time taken: 111.935054063797 seconds.
+Tokenizer time: 0.006250143051147461, Inference time: 111.92880392074585
+Batch 78/335 completed. Questions 158/670 completed.
+Time taken: 114.22335171699524 seconds.
+Tokenizer time: 0.008318424224853516, Inference time: 114.21503329277039
+Batch 79/335 completed. Questions 160/670 completed.
+Time taken: 114.23502254486084 seconds.
+Tokenizer time: 0.007649898529052734, Inference time: 114.22737264633179
+Batch 80/335 completed. Questions 162/670 completed.
+Time taken: 114.27556586265564 seconds.
+Tokenizer time: 0.008253335952758789, Inference time: 114.26731252670288
+Batch 81/335 completed. Questions 164/670 completed.
+Time taken: 26.514259338378906 seconds.
+Tokenizer time: 0.007968425750732422, Inference time: 26.506290912628174
+Batch 82/335 completed. Questions 166/670 completed.
+Time taken: 11.526570320129395 seconds.
+Tokenizer time: 0.004439353942871094, Inference time: 11.522130966186523
+Batch 83/335 completed. Questions 168/670 completed.
+Time taken: 113.76888346672058 seconds.
+Tokenizer time: 0.003913402557373047, Inference time: 113.76497006416321
+Batch 84/335 completed. Questions 170/670 completed.
+Time taken: 10.236264944076538 seconds.
+Tokenizer time: 0.007801532745361328, Inference time: 10.228463411331177
+Batch 85/335 completed. Questions 172/670 completed.
+Time taken: 14.543520212173462 seconds.
+Tokenizer time: 0.002937793731689453, Inference time: 14.540582418441772
+Batch 86/335 completed. Questions 174/670 completed.
+Time taken: 20.68550181388855 seconds.
+Tokenizer time: 0.004832029342651367, Inference time: 20.6806697845459
+Batch 87/335 completed. Questions 176/670 completed.
+Time taken: 11.608412265777588 seconds.
+Tokenizer time: 0.003999948501586914, Inference time: 11.604412317276001
+Batch 88/335 completed. Questions 178/670 completed.
+Time taken: 112.78612542152405 seconds.
+Tokenizer time: 0.004473447799682617, Inference time: 112.78165197372437
+Batch 89/335 completed. Questions 180/670 completed.
+Time taken: 112.78264045715332 seconds.
+Tokenizer time: 0.007330179214477539, Inference time: 112.77531027793884
+Batch 90/335 completed. Questions 182/670 completed.
+Time taken: 112.82150626182556 seconds.
+Tokenizer time: 0.007007122039794922, Inference time: 112.81449913978577
+Batch 91/335 completed. Questions 184/670 completed.
+Time taken: 112.83270359039307 seconds.
+Tokenizer time: 0.0072021484375, Inference time: 112.82550144195557
+Batch 92/335 completed. Questions 186/670 completed.
+Time taken: 112.78196787834167 seconds.
+Tokenizer time: 0.0073735713958740234, Inference time: 112.7745943069458
+Batch 93/335 completed. Questions 188/670 completed.
+Time taken: 111.57916975021362 seconds.
+Tokenizer time: 0.006844043731689453, Inference time: 111.57232570648193
+Batch 94/335 completed. Questions 190/670 completed.
+Time taken: 106.02762413024902 seconds.
+Tokenizer time: 0.0064084529876708984, Inference time: 106.02121567726135
+Batch 95/335 completed. Questions 192/670 completed.
+Time taken: 111.60272336006165 seconds.
+Tokenizer time: 0.006289482116699219, Inference time: 111.59643387794495
+Batch 96/335 completed. Questions 194/670 completed.
+Time taken: 111.60539484024048 seconds.
+Tokenizer time: 0.006224632263183594, Inference time: 111.5991702079773
+Batch 97/335 completed. Questions 196/670 completed.
+Time taken: 111.6341962814331 seconds.
+Tokenizer time: 0.0061376094818115234, Inference time: 111.6280586719513
+Batch 98/335 completed. Questions 198/670 completed.
+Time taken: 112.19774174690247 seconds.
+Tokenizer time: 0.0074923038482666016, Inference time: 112.1902494430542
+Batch 99/335 completed. Questions 200/670 completed.
+Time taken: 112.2505669593811 seconds.
+Tokenizer time: 0.00658416748046875, Inference time: 112.24398279190063
+Batch 100/335 completed. Questions 202/670 completed.
+Time taken: 112.21324801445007 seconds.
+Tokenizer time: 0.006691694259643555, Inference time: 112.20655632019043
+Batch 101/335 completed. Questions 204/670 completed.
+Time taken: 112.22297215461731 seconds.
+Tokenizer time: 0.00655674934387207, Inference time: 112.21641540527344
+Batch 102/335 completed. Questions 206/670 completed.
+Time taken: 112.16660737991333 seconds.
+Tokenizer time: 0.0066187381744384766, Inference time: 112.15998864173889
+Batch 103/335 completed. Questions 208/670 completed.
+Time taken: 112.69941902160645 seconds.
+Tokenizer time: 0.007790803909301758, Inference time: 112.69162821769714
+Batch 104/335 completed. Questions 210/670 completed.
+Time taken: 112.7010703086853 seconds.
+Tokenizer time: 0.007009029388427734, Inference time: 112.69406127929688
+Batch 105/335 completed. Questions 212/670 completed.
+Time taken: 15.590415716171265 seconds.
+Tokenizer time: 0.006905317306518555, Inference time: 15.583510398864746
+Batch 106/335 completed. Questions 214/670 completed.
+Time taken: 107.03113079071045 seconds.
+Tokenizer time: 0.003571748733520508, Inference time: 107.02755904197693
+Batch 107/335 completed. Questions 216/670 completed.
+Time taken: 112.72840809822083 seconds.
+Tokenizer time: 0.006931781768798828, Inference time: 112.72147631645203
+Batch 108/335 completed. Questions 218/670 completed.
+Time taken: 7.251795768737793 seconds.
+Tokenizer time: 0.007740497589111328, Inference time: 7.244055271148682
+Batch 109/335 completed. Questions 220/670 completed.
+Time taken: 13.667803287506104 seconds.
+Tokenizer time: 0.0037627220153808594, Inference time: 13.664040565490723
+Batch 110/335 completed. Questions 222/670 completed.
+Time taken: 10.487285137176514 seconds.
+Tokenizer time: 0.0037636756896972656, Inference time: 10.483521461486816
+Batch 111/335 completed. Questions 224/670 completed.
+Time taken: 112.68640184402466 seconds.
+Tokenizer time: 0.003860950469970703, Inference time: 112.68254089355469
+Batch 112/335 completed. Questions 226/670 completed.
+Time taken: 7.2530317306518555 seconds.
+Tokenizer time: 0.007266044616699219, Inference time: 7.245765686035156
+Batch 113/335 completed. Questions 228/670 completed.
+Time taken: 34.9284987449646 seconds.
+Tokenizer time: 0.006179094314575195, Inference time: 34.922319650650024
+Batch 114/335 completed. Questions 230/670 completed.
+Time taken: 118.33478546142578 seconds.
+Tokenizer time: 0.008798837661743164, Inference time: 118.32598662376404
+Batch 115/335 completed. Questions 232/670 completed.
+Time taken: 28.444465398788452 seconds.
+Tokenizer time: 0.011450767517089844, Inference time: 28.433014631271362
+Batch 116/335 completed. Questions 234/670 completed.
+Time taken: 27.170703411102295 seconds.
+Tokenizer time: 0.00666356086730957, Inference time: 27.164039850234985
+Batch 117/335 completed. Questions 236/670 completed.
+Time taken: 118.08679986000061 seconds.
+Tokenizer time: 0.008259773254394531, Inference time: 118.07854008674622
+Batch 118/335 completed. Questions 238/670 completed.
+Time taken: 12.547589540481567 seconds.
+Tokenizer time: 0.006922006607055664, Inference time: 12.540667533874512
+Batch 119/335 completed. Questions 240/670 completed.
+Time taken: 6.53525447845459 seconds.
+Tokenizer time: 0.0034952163696289062, Inference time: 6.531759262084961
+Batch 120/335 completed. Questions 242/670 completed.
+Time taken: 19.035930156707764 seconds.
+Tokenizer time: 0.003505229949951172, Inference time: 19.032424926757812
+Batch 121/335 completed. Questions 244/670 completed.
+Time taken: 8.7567617893219 seconds.
+Tokenizer time: 0.004519462585449219, Inference time: 8.75224232673645
+Batch 122/335 completed. Questions 246/670 completed.
+Time taken: 4.606017589569092 seconds.
+Tokenizer time: 0.0044765472412109375, Inference time: 4.601541042327881
+Batch 123/335 completed. Questions 248/670 completed.
+Time taken: 114.66538977622986 seconds.
+Tokenizer time: 0.004337787628173828, Inference time: 114.66105198860168
+Batch 124/335 completed. Questions 250/670 completed.
+Time taken: 15.756497621536255 seconds.
+Tokenizer time: 0.007565021514892578, Inference time: 15.748932600021362
+Batch 125/335 completed. Questions 252/670 completed.
+Time taken: 20.116531133651733 seconds.
+Tokenizer time: 0.004439353942871094, Inference time: 20.112091779708862
+Batch 126/335 completed. Questions 254/670 completed.
+Time taken: 114.66467308998108 seconds.
+Tokenizer time: 0.005681514739990234, Inference time: 114.65899157524109
+Batch 127/335 completed. Questions 256/670 completed.
+Time taken: 16.208452701568604 seconds.
+Tokenizer time: 0.0077168941497802734, Inference time: 16.200735807418823
+Batch 128/335 completed. Questions 258/670 completed.
+Time taken: 9.518357992172241 seconds.
+Tokenizer time: 0.00395512580871582, Inference time: 9.514402866363525
+Batch 129/335 completed. Questions 260/670 completed.
+Time taken: 10.03038477897644 seconds.
+Tokenizer time: 0.00397491455078125, Inference time: 10.02640986442566
+Batch 130/335 completed. Questions 262/670 completed.
+Time taken: 10.565412044525146 seconds.
+Tokenizer time: 0.004271030426025391, Inference time: 10.561141014099121
+Batch 131/335 completed. Questions 264/670 completed.
+Time taken: 11.839593172073364 seconds.
+Tokenizer time: 0.005247354507446289, Inference time: 11.834345817565918
+Batch 132/335 completed. Questions 266/670 completed.
+Time taken: 23.049546480178833 seconds.
+Tokenizer time: 0.003910064697265625, Inference time: 23.045636415481567
+Batch 133/335 completed. Questions 268/670 completed.
+Time taken: 21.65793514251709 seconds.
+Tokenizer time: 0.006541252136230469, Inference time: 21.65139389038086
+Batch 134/335 completed. Questions 270/670 completed.
+Time taken: 25.125630140304565 seconds.
+Tokenizer time: 0.0064868927001953125, Inference time: 25.11914324760437
+Batch 135/335 completed. Questions 272/670 completed.
+Time taken: 21.17630648612976 seconds.
+Tokenizer time: 0.006280183792114258, Inference time: 21.170026302337646
+Batch 136/335 completed. Questions 274/670 completed.
+Time taken: 25.874548196792603 seconds.
+Tokenizer time: 0.005755424499511719, Inference time: 25.86879277229309
+Batch 137/335 completed. Questions 276/670 completed.
+Time taken: 18.83519411087036 seconds.
+Tokenizer time: 0.007962226867675781, Inference time: 18.827231884002686
+Batch 138/335 completed. Questions 278/670 completed.
+Time taken: 108.80275774002075 seconds.
+Tokenizer time: 0.004384040832519531, Inference time: 108.79837369918823
+Batch 139/335 completed. Questions 280/670 completed.
+Time taken: 114.60027170181274 seconds.
+Tokenizer time: 0.008044719696044922, Inference time: 114.5922269821167
+Batch 140/335 completed. Questions 282/670 completed.
+Time taken: 114.87336540222168 seconds.
+Tokenizer time: 0.007635354995727539, Inference time: 114.86573004722595
+Batch 141/335 completed. Questions 284/670 completed.
+Time taken: 19.012062072753906 seconds.
+Tokenizer time: 0.008037805557250977, Inference time: 19.004024267196655
+Batch 142/335 completed. Questions 286/670 completed.
+Time taken: 21.817363739013672 seconds.
+Tokenizer time: 0.0042917728424072266, Inference time: 21.813071966171265
+Batch 143/335 completed. Questions 288/670 completed.
+Time taken: 113.84876441955566 seconds.
+Tokenizer time: 0.006556272506713867, Inference time: 113.84220814704895
+Batch 144/335 completed. Questions 290/670 completed.
+Time taken: 113.9045741558075 seconds.
+Tokenizer time: 0.008059978485107422, Inference time: 113.89651417732239
+Batch 145/335 completed. Questions 292/670 completed.
+Time taken: 113.93568181991577 seconds.
+Tokenizer time: 0.008101463317871094, Inference time: 113.9275803565979
+Batch 146/335 completed. Questions 294/670 completed.
+Time taken: 113.90840363502502 seconds.
+Tokenizer time: 0.007471323013305664, Inference time: 113.90093231201172
+Batch 147/335 completed. Questions 296/670 completed.
+Time taken: 108.16040110588074 seconds.
+Tokenizer time: 0.007107734680175781, Inference time: 108.15329337120056
+Batch 148/335 completed. Questions 298/670 completed.
+Time taken: 18.940969467163086 seconds.
+Tokenizer time: 0.009832382202148438, Inference time: 18.931137084960938
+Batch 149/335 completed. Questions 300/670 completed.
+Time taken: 13.17737627029419 seconds.
+Tokenizer time: 0.005773782730102539, Inference time: 13.171602487564087
+Batch 150/335 completed. Questions 302/670 completed.
+Time taken: 16.90425443649292 seconds.
+Tokenizer time: 0.006518363952636719, Inference time: 16.897736072540283
+Batch 151/335 completed. Questions 304/670 completed.
+Time taken: 30.07266926765442 seconds.
+Tokenizer time: 0.004616498947143555, Inference time: 30.068052768707275
+Batch 152/335 completed. Questions 306/670 completed.
+Time taken: 21.68215823173523 seconds.
+Tokenizer time: 0.005394458770751953, Inference time: 21.676763772964478
+Batch 153/335 completed. Questions 308/670 completed.
+Time taken: 118.22072005271912 seconds.
+Tokenizer time: 0.006592273712158203, Inference time: 118.21412777900696
+Batch 154/335 completed. Questions 310/670 completed.
+Time taken: 15.867351055145264 seconds.
+Tokenizer time: 0.008711099624633789, Inference time: 15.85863995552063
+Batch 155/335 completed. Questions 312/670 completed.
+Time taken: 7.245866775512695 seconds.
+Tokenizer time: 0.00626063346862793, Inference time: 7.239606142044067
+Batch 156/335 completed. Questions 314/670 completed.
+Time taken: 7.360419034957886 seconds.
+Tokenizer time: 0.00615382194519043, Inference time: 7.354265213012695
+Batch 157/335 completed. Questions 316/670 completed.
+Time taken: 6.677152395248413 seconds.
+Tokenizer time: 0.006914615631103516, Inference time: 6.67023777961731
+Batch 158/335 completed. Questions 318/670 completed.
+Time taken: 17.62124800682068 seconds.
+Tokenizer time: 0.0035529136657714844, Inference time: 17.617695093154907
+Batch 159/335 completed. Questions 320/670 completed.
+Time taken: 112.36409997940063 seconds.
+Tokenizer time: 0.004433631896972656, Inference time: 112.35966634750366
+Batch 160/335 completed. Questions 322/670 completed.
+Time taken: 112.40285658836365 seconds.
+Tokenizer time: 0.005946159362792969, Inference time: 112.39691042900085
+Batch 161/335 completed. Questions 324/670 completed.
+Time taken: 112.36550402641296 seconds.
+Tokenizer time: 0.005867481231689453, Inference time: 112.35963654518127
+Batch 162/335 completed. Questions 326/670 completed.
+Time taken: 116.53255343437195 seconds.
+Tokenizer time: 0.007416486740112305, Inference time: 116.52513694763184
+Batch 163/335 completed. Questions 328/670 completed.
+Time taken: 24.652604818344116 seconds.
+Tokenizer time: 0.007514238357543945, Inference time: 24.645090579986572
+Batch 164/335 completed. Questions 330/670 completed.
+Time taken: 69.7363510131836 seconds.
+Tokenizer time: 0.006057262420654297, Inference time: 69.73029375076294
+Batch 165/335 completed. Questions 332/670 completed.
+Time taken: 58.1720712184906 seconds.
+Tokenizer time: 0.006625652313232422, Inference time: 58.16544556617737
+Batch 166/335 completed. Questions 334/670 completed.
+Time taken: 116.59633564949036 seconds.
+Tokenizer time: 0.006962776184082031, Inference time: 116.58937287330627
+Batch 167/335 completed. Questions 336/670 completed.
+Time taken: 7.408109664916992 seconds.
+Tokenizer time: 0.005452156066894531, Inference time: 7.402657508850098
+Batch 168/335 completed. Questions 338/670 completed.
+Time taken: 106.12012910842896 seconds.
+Tokenizer time: 0.0030782222747802734, Inference time: 106.11705088615417
+Batch 169/335 completed. Questions 340/670 completed.
+Time taken: 111.71987915039062 seconds.
+Tokenizer time: 0.005440235137939453, Inference time: 111.71443891525269
+Batch 170/335 completed. Questions 342/670 completed.
+Time taken: 111.71754574775696 seconds.
+Tokenizer time: 0.005537986755371094, Inference time: 111.71200776100159
+Batch 171/335 completed. Questions 344/670 completed.
+Time taken: 111.73251461982727 seconds.
+Tokenizer time: 0.005488395690917969, Inference time: 111.72702622413635
+Batch 172/335 completed. Questions 346/670 completed.
+Time taken: 111.4333508014679 seconds.
+Tokenizer time: 0.005368232727050781, Inference time: 111.42798256874084
+Batch 173/335 completed. Questions 348/670 completed.
+Time taken: 111.42652368545532 seconds.
+Tokenizer time: 0.0055010318756103516, Inference time: 111.42102265357971
+Batch 174/335 completed. Questions 350/670 completed.
+Time taken: 111.42791843414307 seconds.
+Tokenizer time: 0.005600929260253906, Inference time: 111.42231750488281
+Batch 175/335 completed. Questions 352/670 completed.
+Time taken: 111.44689750671387 seconds.
+Tokenizer time: 0.005649089813232422, Inference time: 111.44124841690063
+Batch 176/335 completed. Questions 354/670 completed.
+Time taken: 12.730358839035034 seconds.
+Tokenizer time: 0.00406336784362793, Inference time: 12.726295471191406
+Batch 177/335 completed. Questions 356/670 completed.
+Time taken: 106.45806694030762 seconds.
+Tokenizer time: 0.003300189971923828, Inference time: 106.4547667503357
+Batch 178/335 completed. Questions 358/670 completed.
+Time taken: 112.13706588745117 seconds.
+Tokenizer time: 0.0039250850677490234, Inference time: 112.13314080238342
+Batch 179/335 completed. Questions 360/670 completed.
+Time taken: 11.139588594436646 seconds.
+Tokenizer time: 0.0060236454010009766, Inference time: 11.133564949035645
+Batch 180/335 completed. Questions 362/670 completed.
+Time taken: 10.076026439666748 seconds.
+Tokenizer time: 0.003608226776123047, Inference time: 10.072418212890625
+Batch 181/335 completed. Questions 364/670 completed.
+Time taken: 112.09090185165405 seconds.
+Tokenizer time: 0.005010128021240234, Inference time: 112.08589172363281
+Batch 182/335 completed. Questions 366/670 completed.
+Time taken: 111.63581228256226 seconds.
+Tokenizer time: 0.00655055046081543, Inference time: 111.62926173210144
+Batch 183/335 completed. Questions 368/670 completed.
+Time taken: 105.98467707633972 seconds.
+Tokenizer time: 0.0065898895263671875, Inference time: 105.97808718681335
+Batch 184/335 completed. Questions 370/670 completed.
+Time taken: 106.01284289360046 seconds.
+Tokenizer time: 0.0061223506927490234, Inference time: 106.00672054290771
+Batch 185/335 completed. Questions 372/670 completed.
+Time taken: 106.0052285194397 seconds.
+Tokenizer time: 0.00545954704284668, Inference time: 105.99976897239685
+Batch 186/335 completed. Questions 374/670 completed.
+Time taken: 112.08558177947998 seconds.
+Tokenizer time: 0.007566213607788086, Inference time: 112.07801556587219
+Batch 187/335 completed. Questions 376/670 completed.
+Time taken: 112.14364504814148 seconds.
+Tokenizer time: 0.006750822067260742, Inference time: 112.13689422607422
+Batch 188/335 completed. Questions 378/670 completed.
+Time taken: 112.14133524894714 seconds.
+Tokenizer time: 0.0069544315338134766, Inference time: 112.13438081741333
+Batch 189/335 completed. Questions 380/670 completed.
+Time taken: 106.49313950538635 seconds.
+Tokenizer time: 0.006829023361206055, Inference time: 106.48631048202515
+Batch 190/335 completed. Questions 382/670 completed.
+Time taken: 112.10934162139893 seconds.
+Tokenizer time: 0.006793022155761719, Inference time: 112.10254859924316
+Batch 191/335 completed. Questions 384/670 completed.
+Time taken: 112.12260437011719 seconds.
+Tokenizer time: 0.006647586822509766, Inference time: 112.11595678329468
+Batch 192/335 completed. Questions 386/670 completed.
+Time taken: 12.729617834091187 seconds.
+Tokenizer time: 0.0067865848541259766, Inference time: 12.72283124923706
+Batch 193/335 completed. Questions 388/670 completed.
+Time taken: 111.95870423316956 seconds.
+Tokenizer time: 0.003446340560913086, Inference time: 111.95525789260864
+Batch 194/335 completed. Questions 390/670 completed.
+Time taken: 8.939121723175049 seconds.
+Tokenizer time: 0.006506204605102539, Inference time: 8.932615518569946
+Batch 195/335 completed. Questions 392/670 completed.
+Time taken: 111.84241938591003 seconds.
+Tokenizer time: 0.0034716129302978516, Inference time: 111.83894777297974
+Batch 196/335 completed. Questions 394/670 completed.
+Time taken: 8.184340715408325 seconds.
+Tokenizer time: 0.006426095962524414, Inference time: 8.1779146194458
+Batch 197/335 completed. Questions 396/670 completed.
+Time taken: 106.22621870040894 seconds.
+Tokenizer time: 0.003016233444213867, Inference time: 106.22320246696472
+Batch 198/335 completed. Questions 398/670 completed.
+Time taken: 111.86246109008789 seconds.
+Tokenizer time: 0.006542682647705078, Inference time: 111.85591840744019
+Batch 199/335 completed. Questions 400/670 completed.
+Time taken: 8.235023021697998 seconds.
+Tokenizer time: 0.0057489871978759766, Inference time: 8.229274034500122
+Batch 200/335 completed. Questions 402/670 completed.
+Time taken: 113.33070492744446 seconds.
+Tokenizer time: 0.004979848861694336, Inference time: 113.32572507858276
+Batch 201/335 completed. Questions 404/670 completed.
+Time taken: 113.40001249313354 seconds.
+Tokenizer time: 0.006504058837890625, Inference time: 113.39350843429565
+Batch 202/335 completed. Questions 406/670 completed.
+Time taken: 113.41125440597534 seconds.
+Tokenizer time: 0.005956411361694336, Inference time: 113.40529799461365
+Batch 203/335 completed. Questions 408/670 completed.
+Time taken: 113.37452173233032 seconds.
+Tokenizer time: 0.005713224411010742, Inference time: 113.36880850791931
+Batch 204/335 completed. Questions 410/670 completed.
+Time taken: 113.37122583389282 seconds.
+Tokenizer time: 0.004359245300292969, Inference time: 113.36686658859253
+Batch 205/335 completed. Questions 412/670 completed.
+Time taken: 27.407073259353638 seconds.
+Tokenizer time: 0.007706642150878906, Inference time: 27.39936661720276
+Batch 206/335 completed. Questions 414/670 completed.
+Time taken: 10.304656028747559 seconds.
+Tokenizer time: 0.0040721893310546875, Inference time: 10.300583839416504
+Batch 207/335 completed. Questions 416/670 completed.
+Time taken: 9.44783067703247 seconds.
+Tokenizer time: 0.0035936832427978516, Inference time: 9.444236993789673
+Batch 208/335 completed. Questions 418/670 completed.
+Time taken: 10.515581607818604 seconds.
+Tokenizer time: 0.005129337310791016, Inference time: 10.510452270507812
+Batch 209/335 completed. Questions 420/670 completed.
+Time taken: 106.60264849662781 seconds.
+Tokenizer time: 0.003755331039428711, Inference time: 106.59889316558838
+Batch 210/335 completed. Questions 422/670 completed.
+Time taken: 14.491639137268066 seconds.
+Tokenizer time: 0.006860971450805664, Inference time: 14.48477816581726
+Batch 211/335 completed. Questions 424/670 completed.
+Time taken: 17.77419686317444 seconds.
+Tokenizer time: 0.0032470226287841797, Inference time: 17.770949840545654
+Batch 212/335 completed. Questions 426/670 completed.
+Time taken: 6.974054574966431 seconds.
+Tokenizer time: 0.0043735504150390625, Inference time: 6.969681024551392
+Batch 213/335 completed. Questions 428/670 completed.
+Time taken: 8.514180183410645 seconds.
+Tokenizer time: 0.0034155845642089844, Inference time: 8.510764598846436
+Batch 214/335 completed. Questions 430/670 completed.
+Time taken: 7.6565775871276855 seconds.
+Tokenizer time: 0.004570722579956055, Inference time: 7.6520068645477295
+Batch 215/335 completed. Questions 432/670 completed.
+Time taken: 114.09198141098022 seconds.
+Tokenizer time: 0.005205631256103516, Inference time: 114.08677577972412
+Batch 216/335 completed. Questions 434/670 completed.
+Time taken: 114.26199460029602 seconds.
+Tokenizer time: 0.007616996765136719, Inference time: 114.25437760353088
+Batch 217/335 completed. Questions 436/670 completed.
+Time taken: 113.96069860458374 seconds.
+Tokenizer time: 0.007632255554199219, Inference time: 113.95306634902954
+Batch 218/335 completed. Questions 438/670 completed.
+Time taken: 114.14911651611328 seconds.
+Tokenizer time: 0.007604360580444336, Inference time: 114.14151215553284
+Batch 219/335 completed. Questions 440/670 completed.
+Time taken: 114.04692578315735 seconds.
+Tokenizer time: 0.007689476013183594, Inference time: 114.03923630714417
+Batch 220/335 completed. Questions 442/670 completed.
+Time taken: 26.381402730941772 seconds.
+Tokenizer time: 0.012470245361328125, Inference time: 26.368932485580444
+Batch 221/335 completed. Questions 444/670 completed.
+Time taken: 24.984246015548706 seconds.
+Tokenizer time: 0.008864879608154297, Inference time: 24.97538113594055
+Batch 222/335 completed. Questions 446/670 completed.
+Time taken: 71.41771960258484 seconds.
+Tokenizer time: 0.008484601974487305, Inference time: 71.40923500061035
+Batch 223/335 completed. Questions 448/670 completed.
+Time taken: 56.472973108291626 seconds.
+Tokenizer time: 0.011354684829711914, Inference time: 56.461618423461914
+Batch 224/335 completed. Questions 450/670 completed.
+Time taken: 3.9845798015594482 seconds.
+Tokenizer time: 0.010053396224975586, Inference time: 3.9745264053344727
+Batch 225/335 completed. Questions 452/670 completed.
+Time taken: 116.73956823348999 seconds.
+Tokenizer time: 0.005498409271240234, Inference time: 116.73406982421875
+Batch 226/335 completed. Questions 454/670 completed.
+Time taken: 116.60700678825378 seconds.
+Tokenizer time: 0.0056760311126708984, Inference time: 116.60133075714111
+Batch 227/335 completed. Questions 456/670 completed.
+Time taken: 116.6917200088501 seconds.
+Tokenizer time: 0.005724906921386719, Inference time: 116.68599510192871
+Batch 228/335 completed. Questions 458/670 completed.
+Time taken: 116.66548204421997 seconds.
+Tokenizer time: 0.009543657302856445, Inference time: 116.65593838691711
+Batch 229/335 completed. Questions 460/670 completed.
+Time taken: 116.63391923904419 seconds.
+Tokenizer time: 0.009737253189086914, Inference time: 116.6241819858551
+Batch 230/335 completed. Questions 462/670 completed.
+Time taken: 17.868695735931396 seconds.
+Tokenizer time: 0.007475614547729492, Inference time: 17.861220121383667
+Batch 231/335 completed. Questions 464/670 completed.
+Time taken: 112.3592221736908 seconds.
+Tokenizer time: 0.004243612289428711, Inference time: 112.35497856140137
+Batch 232/335 completed. Questions 466/670 completed.
+Time taken: 8.947895526885986 seconds.
+Tokenizer time: 0.0068166255950927734, Inference time: 8.941078901290894
+Batch 233/335 completed. Questions 468/670 completed.
+Time taken: 112.32976746559143 seconds.
+Tokenizer time: 0.0037322044372558594, Inference time: 112.32603526115417
+Batch 234/335 completed. Questions 470/670 completed.
+Time taken: 9.667415142059326 seconds.
+Tokenizer time: 0.007027149200439453, Inference time: 9.660387992858887
+Batch 235/335 completed. Questions 472/670 completed.
+Time taken: 14.637970447540283 seconds.
+Tokenizer time: 0.006887912750244141, Inference time: 14.631082534790039
+Batch 236/335 completed. Questions 474/670 completed.
+Time taken: 25.11584162712097 seconds.
+Tokenizer time: 0.005959510803222656, Inference time: 25.10988211631775
+Batch 237/335 completed. Questions 476/670 completed.
+Time taken: 18.501448154449463 seconds.
+Tokenizer time: 0.007468223571777344, Inference time: 18.493979930877686
+Batch 238/335 completed. Questions 478/670 completed.
+Time taken: 33.221121311187744 seconds.
+Tokenizer time: 0.00567317008972168, Inference time: 33.21544814109802
+Batch 239/335 completed. Questions 480/670 completed.
+Time taken: 16.964563131332397 seconds.
+Tokenizer time: 0.006295919418334961, Inference time: 16.958267211914062
+Batch 240/335 completed. Questions 482/670 completed.
+Time taken: 112.53668880462646 seconds.
+Tokenizer time: 0.0026977062225341797, Inference time: 112.53399109840393
+Batch 241/335 completed. Questions 484/670 completed.
+Time taken: 106.89816117286682 seconds.
+Tokenizer time: 0.0060405731201171875, Inference time: 106.8921205997467
+Batch 242/335 completed. Questions 486/670 completed.
+Time taken: 112.5371994972229 seconds.
+Tokenizer time: 0.006528139114379883, Inference time: 112.53067135810852
+Batch 243/335 completed. Questions 488/670 completed.
+Time taken: 106.93442869186401 seconds.
+Tokenizer time: 0.006663084030151367, Inference time: 106.92776560783386
+Batch 244/335 completed. Questions 490/670 completed.
+Time taken: 106.8838620185852 seconds.
+Tokenizer time: 0.006813526153564453, Inference time: 106.87704849243164
+Batch 245/335 completed. Questions 492/670 completed.
+Time taken: 106.66134524345398 seconds.
+Tokenizer time: 0.007311105728149414, Inference time: 106.65403413772583
+Batch 246/335 completed. Questions 494/670 completed.
+Time taken: 14.584807395935059 seconds.
+Tokenizer time: 0.006645679473876953, Inference time: 14.578161716461182
+Batch 247/335 completed. Questions 496/670 completed.
+Time taken: 112.28939628601074 seconds.
+Tokenizer time: 0.0031011104583740234, Inference time: 112.28629517555237
+Batch 248/335 completed. Questions 498/670 completed.
+Time taken: 112.29460620880127 seconds.
+Tokenizer time: 0.0068585872650146484, Inference time: 112.28774762153625
+Batch 249/335 completed. Questions 500/670 completed.
+Time taken: 20.312361478805542 seconds.
+Tokenizer time: 0.008149862289428711, Inference time: 20.304211616516113
+Batch 250/335 completed. Questions 502/670 completed.
+Time taken: 46.885414361953735 seconds.
+Tokenizer time: 0.0047185420989990234, Inference time: 46.880695819854736
+Batch 251/335 completed. Questions 504/670 completed.
+Time taken: 113.4694972038269 seconds.
+Tokenizer time: 0.0065784454345703125, Inference time: 113.46291875839233
+Batch 252/335 completed. Questions 506/670 completed.
+Time taken: 113.44469714164734 seconds.
+Tokenizer time: 0.0071108341217041016, Inference time: 113.43758630752563
+Batch 253/335 completed. Questions 508/670 completed.
+Time taken: 14.900659799575806 seconds.
+Tokenizer time: 0.007464408874511719, Inference time: 14.893195390701294
+Batch 254/335 completed. Questions 510/670 completed.
+Time taken: 18.190800189971924 seconds.
+Tokenizer time: 0.004809856414794922, Inference time: 18.18599033355713
+Batch 255/335 completed. Questions 512/670 completed.
+Time taken: 110.57909965515137 seconds.
+Tokenizer time: 0.007699489593505859, Inference time: 110.57140016555786
+Batch 256/335 completed. Questions 514/670 completed.
+Time taken: 116.47984027862549 seconds.
+Tokenizer time: 0.008107185363769531, Inference time: 116.47173309326172
+Batch 257/335 completed. Questions 516/670 completed.
+Time taken: 24.203348398208618 seconds.
+Tokenizer time: 0.009853124618530273, Inference time: 24.193495273590088
+Batch 258/335 completed. Questions 518/670 completed.
+Time taken: 13.328452110290527 seconds.
+Tokenizer time: 0.00646519660949707, Inference time: 13.32198691368103
+Batch 259/335 completed. Questions 520/670 completed.
+Time taken: 14.306030750274658 seconds.
+Tokenizer time: 0.006457090377807617, Inference time: 14.29957365989685
+Batch 260/335 completed. Questions 522/670 completed.
+Time taken: 13.736202716827393 seconds.
+Tokenizer time: 0.00427699089050293, Inference time: 13.73192572593689
+Batch 261/335 completed. Questions 524/670 completed.
+Time taken: 19.62122893333435 seconds.
+Tokenizer time: 0.0040912628173828125, Inference time: 19.617137670516968
+Batch 262/335 completed. Questions 526/670 completed.
+Time taken: 112.48968768119812 seconds.
+Tokenizer time: 0.004814624786376953, Inference time: 112.48487305641174
+Batch 263/335 completed. Questions 528/670 completed.
+Time taken: 9.882410287857056 seconds.
+Tokenizer time: 0.0070574283599853516, Inference time: 9.87535285949707
+Batch 264/335 completed. Questions 530/670 completed.
+Time taken: 115.0230507850647 seconds.
+Tokenizer time: 0.0062961578369140625, Inference time: 115.01675462722778
+Batch 265/335 completed. Questions 532/670 completed.
+Time taken: 17.022794008255005 seconds.
+Tokenizer time: 0.008184194564819336, Inference time: 17.014609813690186
+Batch 266/335 completed. Questions 534/670 completed.
+Time taken: 115.01967144012451 seconds.
+Tokenizer time: 0.0047686100006103516, Inference time: 115.0149028301239
+Batch 267/335 completed. Questions 536/670 completed.
+Time taken: 114.97784185409546 seconds.
+Tokenizer time: 0.008252143859863281, Inference time: 114.9695897102356
+Batch 268/335 completed. Questions 538/670 completed.
+Time taken: 114.98134112358093 seconds.
+Tokenizer time: 0.008034706115722656, Inference time: 114.97330641746521
+Batch 269/335 completed. Questions 540/670 completed.
+Time taken: 34.343857526779175 seconds.
+Tokenizer time: 0.00797891616821289, Inference time: 34.33587861061096
+Batch 270/335 completed. Questions 542/670 completed.
+Time taken: 113.73463296890259 seconds.
+Tokenizer time: 0.0039882659912109375, Inference time: 113.73064470291138
+Batch 271/335 completed. Questions 544/670 completed.
+Time taken: 23.13083028793335 seconds.
+Tokenizer time: 0.0075643062591552734, Inference time: 23.123265981674194
+Batch 272/335 completed. Questions 546/670 completed.
+Time taken: 26.131561517715454 seconds.
+Tokenizer time: 0.0042035579681396484, Inference time: 26.127357959747314
+Batch 273/335 completed. Questions 548/670 completed.
+Time taken: 107.99365186691284 seconds.
+Tokenizer time: 0.0068285465240478516, Inference time: 107.9868233203888
+Batch 274/335 completed. Questions 550/670 completed.
+Time taken: 106.81655097007751 seconds.
+Tokenizer time: 0.00741267204284668, Inference time: 106.80913829803467
+Batch 275/335 completed. Questions 552/670 completed.
+Time taken: 112.50412583351135 seconds.
+Tokenizer time: 0.006159543991088867, Inference time: 112.49796628952026
+Batch 276/335 completed. Questions 554/670 completed.
+Time taken: 112.48511934280396 seconds.
+Tokenizer time: 0.00587010383605957, Inference time: 112.4792492389679
+Batch 277/335 completed. Questions 556/670 completed.
+Time taken: 112.48772287368774 seconds.
+Tokenizer time: 0.005644559860229492, Inference time: 112.48207831382751
+Batch 278/335 completed. Questions 558/670 completed.
+Time taken: 112.48036670684814 seconds.
+Tokenizer time: 0.006815910339355469, Inference time: 112.47355079650879
+Batch 279/335 completed. Questions 560/670 completed.
+Time taken: 14.544100999832153 seconds.
+Tokenizer time: 0.008470773696899414, Inference time: 14.535630226135254
+Batch 280/335 completed. Questions 562/670 completed.
+Time taken: 114.13691806793213 seconds.
+Tokenizer time: 0.003010988235473633, Inference time: 114.13390707969666
+Batch 281/335 completed. Questions 564/670 completed.
+Time taken: 16.127591848373413 seconds.
+Tokenizer time: 0.007741212844848633, Inference time: 16.119850635528564
+Batch 282/335 completed. Questions 566/670 completed.
+Time taken: 21.024421215057373 seconds.
+Tokenizer time: 0.004652738571166992, Inference time: 21.019768476486206
+Batch 283/335 completed. Questions 568/670 completed.
+Time taken: 114.17474055290222 seconds.
+Tokenizer time: 0.004647254943847656, Inference time: 114.17009329795837
+Batch 284/335 completed. Questions 570/670 completed.
+Time taken: 113.55170226097107 seconds.
+Tokenizer time: 0.007684230804443359, Inference time: 113.54401803016663
+Batch 285/335 completed. Questions 572/670 completed.
+Time taken: 10.181312322616577 seconds.
+Tokenizer time: 0.0072557926177978516, Inference time: 10.17405652999878
+Batch 286/335 completed. Questions 574/670 completed.
+Time taken: 13.146429300308228 seconds.
+Tokenizer time: 0.0040435791015625, Inference time: 13.142385721206665
+Batch 287/335 completed. Questions 576/670 completed.
+Time taken: 113.51862263679504 seconds.
+Tokenizer time: 0.004672050476074219, Inference time: 113.51395058631897
+Batch 288/335 completed. Questions 578/670 completed.
+Time taken: 113.60888671875 seconds.
+Tokenizer time: 0.007588386535644531, Inference time: 113.60129833221436
+Batch 289/335 completed. Questions 580/670 completed.
+Time taken: 115.65046310424805 seconds.
+Tokenizer time: 0.008698225021362305, Inference time: 115.64176487922668
+Batch 290/335 completed. Questions 582/670 completed.
+Time taken: 115.67747783660889 seconds.
+Tokenizer time: 0.009578466415405273, Inference time: 115.66789937019348
+Batch 291/335 completed. Questions 584/670 completed.
+Time taken: 27.351662397384644 seconds.
+Tokenizer time: 0.007661104202270508, Inference time: 27.344001293182373
+Batch 292/335 completed. Questions 586/670 completed.
+Time taken: 13.76082158088684 seconds.
+Tokenizer time: 0.0070188045501708984, Inference time: 13.75380277633667
+Batch 293/335 completed. Questions 588/670 completed.
+Time taken: 115.79719066619873 seconds.
+Tokenizer time: 0.005077838897705078, Inference time: 115.79211282730103
+Batch 294/335 completed. Questions 590/670 completed.
+Time taken: 108.92691159248352 seconds.
+Tokenizer time: 0.0072021484375, Inference time: 108.91970944404602
+Batch 295/335 completed. Questions 592/670 completed.
+Time taken: 112.0750048160553 seconds.
+Tokenizer time: 0.006728410720825195, Inference time: 112.06827640533447
+Batch 296/335 completed. Questions 594/670 completed.
+Time taken: 112.06317973136902 seconds.
+Tokenizer time: 0.006808042526245117, Inference time: 112.05637168884277
+Batch 297/335 completed. Questions 596/670 completed.
+Time taken: 112.01479125022888 seconds.
+Tokenizer time: 0.0066258907318115234, Inference time: 112.00816535949707
+Batch 298/335 completed. Questions 598/670 completed.
+Time taken: 112.01824975013733 seconds.
+Tokenizer time: 0.006601810455322266, Inference time: 112.011647939682
+Batch 299/335 completed. Questions 600/670 completed.
+Time taken: 105.9916877746582 seconds.
+Tokenizer time: 0.006643533706665039, Inference time: 105.98504424095154
+Batch 300/335 completed. Questions 602/670 completed.
+Time taken: 111.60698676109314 seconds.
+Tokenizer time: 0.005693674087524414, Inference time: 111.60129308700562
+Batch 301/335 completed. Questions 604/670 completed.
+Time taken: 111.59645199775696 seconds.
+Tokenizer time: 0.0063169002532958984, Inference time: 111.59013509750366
+Batch 302/335 completed. Questions 606/670 completed.
+Time taken: 106.00324368476868 seconds.
+Tokenizer time: 0.006474018096923828, Inference time: 105.99676966667175
+Batch 303/335 completed. Questions 608/670 completed.
+Time taken: 111.59628248214722 seconds.
+Tokenizer time: 0.006232500076293945, Inference time: 111.59004998207092
+Batch 304/335 completed. Questions 610/670 completed.
+Time taken: 9.679548025131226 seconds.
+Tokenizer time: 0.00793004035949707, Inference time: 9.671617984771729
+Batch 305/335 completed. Questions 612/670 completed.
+Time taken: 112.72829604148865 seconds.
+Tokenizer time: 0.0044040679931640625, Inference time: 112.72389197349548
+Batch 306/335 completed. Questions 614/670 completed.
+Time taken: 112.73210620880127 seconds.
+Tokenizer time: 0.007218122482299805, Inference time: 112.72488808631897
+Batch 307/335 completed. Questions 616/670 completed.
+Time taken: 16.427082538604736 seconds.
+Tokenizer time: 0.007089376449584961, Inference time: 16.41999316215515
+Batch 308/335 completed. Questions 618/670 completed.
+Time taken: 7.490457773208618 seconds.
+Tokenizer time: 0.004603385925292969, Inference time: 7.485854387283325
+Batch 309/335 completed. Questions 620/670 completed.
+Time taken: 111.78425669670105 seconds.
+Tokenizer time: 0.003722667694091797, Inference time: 111.78053402900696
+Batch 310/335 completed. Questions 622/670 completed.
+Time taken: 111.83024024963379 seconds.
+Tokenizer time: 0.006360054016113281, Inference time: 111.82388019561768
+Batch 311/335 completed. Questions 624/670 completed.
+Time taken: 111.9551591873169 seconds.
+Tokenizer time: 0.006493806838989258, Inference time: 111.9486653804779
+Batch 312/335 completed. Questions 626/670 completed.
+Time taken: 111.79688286781311 seconds.
+Tokenizer time: 0.006457328796386719, Inference time: 111.79042553901672
+Batch 313/335 completed. Questions 628/670 completed.
+Time taken: 111.72128701210022 seconds.
+Tokenizer time: 0.0056421756744384766, Inference time: 111.71564483642578
+Batch 314/335 completed. Questions 630/670 completed.
+Time taken: 20.171091318130493 seconds.
+Tokenizer time: 0.007362842559814453, Inference time: 20.16372847557068
+Batch 315/335 completed. Questions 632/670 completed.
+Time taken: 17.88257646560669 seconds.
+Tokenizer time: 0.0051152706146240234, Inference time: 17.877461194992065
+Batch 316/335 completed. Questions 634/670 completed.
+Time taken: 21.285503149032593 seconds.
+Tokenizer time: 0.004275321960449219, Inference time: 21.281227827072144
+Batch 317/335 completed. Questions 636/670 completed.
+Time taken: 17.046229362487793 seconds.
+Tokenizer time: 0.0036897659301757812, Inference time: 17.042539596557617
+Batch 318/335 completed. Questions 638/670 completed.
+Time taken: 16.088650465011597 seconds.
+Tokenizer time: 0.005001068115234375, Inference time: 16.083649396896362
+Batch 319/335 completed. Questions 640/670 completed.
+Time taken: 106.84819293022156 seconds.
+Tokenizer time: 0.0046596527099609375, Inference time: 106.8435332775116
+Batch 320/335 completed. Questions 642/670 completed.
+Time taken: 112.51159834861755 seconds.
+Tokenizer time: 0.007417201995849609, Inference time: 112.5041811466217
+Batch 321/335 completed. Questions 644/670 completed.
+Time taken: 112.47340703010559 seconds.
+Tokenizer time: 0.006325960159301758, Inference time: 112.46708106994629
+Batch 322/335 completed. Questions 646/670 completed.
+Time taken: 112.49383449554443 seconds.
+Tokenizer time: 0.006322622299194336, Inference time: 112.48751187324524
+Batch 323/335 completed. Questions 648/670 completed.
+Time taken: 106.86637830734253 seconds.
+Tokenizer time: 0.0042765140533447266, Inference time: 106.86210179328918
+Batch 324/335 completed. Questions 650/670 completed.
+Time taken: 20.673864364624023 seconds.
+Tokenizer time: 0.009949207305908203, Inference time: 20.663915157318115
+Batch 325/335 completed. Questions 652/670 completed.
+Time taken: 114.12292551994324 seconds.
+Tokenizer time: 0.0030913352966308594, Inference time: 114.1198341846466
+Batch 326/335 completed. Questions 654/670 completed.
+Time taken: 112.59454798698425 seconds.
+Tokenizer time: 0.004338979721069336, Inference time: 112.59020900726318
+Batch 327/335 completed. Questions 656/670 completed.
+Time taken: 112.55203485488892 seconds.
+Tokenizer time: 0.006866455078125, Inference time: 112.54516839981079
+Batch 328/335 completed. Questions 658/670 completed.
+Time taken: 110.4620258808136 seconds.
+Tokenizer time: 0.006858110427856445, Inference time: 110.45516777038574
+Batch 329/335 completed. Questions 660/670 completed.
+Time taken: 112.55098581314087 seconds.
+Tokenizer time: 0.0067331790924072266, Inference time: 112.54425263404846
+Batch 330/335 completed. Questions 662/670 completed.
+Time taken: 112.62130546569824 seconds.
+Tokenizer time: 0.006672859191894531, Inference time: 112.61463260650635
+Batch 331/335 completed. Questions 664/670 completed.
+Time taken: 106.72901654243469 seconds.
+Tokenizer time: 0.00691533088684082, Inference time: 106.72210121154785
+Batch 332/335 completed. Questions 666/670 completed.
+Time taken: 7.157999753952026 seconds.
+Tokenizer time: 0.0062792301177978516, Inference time: 7.1517205238342285
+Batch 333/335 completed. Questions 668/670 completed.
+Time taken: 112.2160210609436 seconds.
+Tokenizer time: 0.003958702087402344, Inference time: 112.2120623588562
+Batch 334/335 completed. Questions 670/670 completed.
+Time taken: 112.33646154403687 seconds.
+Tokenizer time: 0.006738185882568359, Inference time: 112.3297233581543
+Evaluation Completed.
+Runing Analysis...
+Analysis Completed.
