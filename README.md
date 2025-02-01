@@ -1,6 +1,7 @@
 # ATMOSSCI-BENCH
-Click here to view Chinese version: [中文版](./README_cn.md)
+Click here to view Chinese version of README: [中文版](README_cn.md)
 
+Click here to view the Paper: [AstomsSciBench_Arxiv](docs/2025_AtmosSci-Bench_Arxiv.pdf)
 
 ## 1. Introduction
 ### ATMOSSCI-BENCH: Filling the Evaluation Gap
@@ -15,7 +16,7 @@ Our analysis provides some interesting insights into the reasoning and problem-s
 
 
 
-| ![Construction pipeline](src/pipeline.png) |
+| ![Construction pipeline](images/pipeline.png) |
 |:--:|
 | *Firgure 1: Construction pipeline of our template-based question generation framework. Blocks on the middle left represent the question generation process, where variables are highlighted in different colors. Blocks on the middle right depict the automatic problem solver, which derives the answer from given variables. Bottom blocks illustrate an example of a generated question and its corresponding options. *|
 
@@ -26,7 +27,7 @@ The analysis result indicate that ATMOSSCI-BENCH effectively differentiates LLM 
 
 We conduct a comprehensive evaluation of representative LLMs, categorized into four groups: instruction-tuned models, advanced reasoning models, math-augmented models, and domain-specific climate models. Here is the end-to-end evaluation results:
 
-| ![End-to-end Evaluation Results](src/result_table1.png) |
+| ![End-to-end Evaluation Results](images/result_table1.png) |
 |:--:|
 | *Table 1:  Comparison across four LLMs categories in terms of accuracy (%) and symbolic standard deviation for Hydrology (Hydro), Atmospheric Dynamics (AtmDyn), Atmospheric Physics (AtmosPhy), Geophysics (GeoPhy), and Physical Oceanography (PhyOcean). *|
 
