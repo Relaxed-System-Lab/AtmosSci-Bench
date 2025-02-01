@@ -1,5 +1,8 @@
-# ATMOSSCI-BENCH
-Click here to view Chinese version of README: [中文版](README_cn.md)
+<div style="text-align:center">
+<a href="https://hkust.edu.hk/"><img src="https://hkust.edu.hk/sites/default/files/images/UST_L3.svg" height="45"></a>
+
+# AtmosSci-Bench
+Click here to view the Chinese version: [中文版](./README_cn.md)
 
 Click here to view the Paper: [AstomsSciBench_Arxiv](docs/2025_AtmosSci-Bench_Arxiv.pdf)
 
@@ -151,11 +154,3 @@ python3 ../Question/evaluation.py --model together_ray --specific_model "Qwen/Qw
 
 
 
-
-4. License
-
-
-
-
-5. Contact
-If you have any question, please contact ___.
