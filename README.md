@@ -153,6 +153,3 @@ python3 ../Question/evaluation.py --model together_ray --specific_model "Qwen/Qw
 
 
 
-
-4. License
-
