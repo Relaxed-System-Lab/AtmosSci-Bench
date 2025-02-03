@@ -18,7 +18,6 @@ We Introduce ATMOSSCI-BENCH, a comprehensive MCQ(Multi-choices Question) benchma
 Our analysis provides some interesting insights into the reasoning and problem-solving capabilities of LLMs in atmospheric science. We believe ATMOSSCI-BENCH can serve as a critical step toward advancing LLM applications in climate service by offering a standard and rigorous evaluation framework.
 
 
-
 | ![Construction pipeline](images/pipeline.png) |
 |:--:|
 | *Firgure 1: Construction pipeline of our template-based question generation framework. Blocks on the middle left represent the question generation process, where variables are highlighted in different colors. Blocks on the middle right depict the automatic problem solver, which derives the answer from given variables. Bottom blocks illustrate an example of a generated question and its corresponding options. *|
@@ -35,7 +34,9 @@ We conduct a comprehensive evaluation of representative LLMs, categorized into f
 | *Table 1:  Comparison across four LLMs categories in terms of accuracy (%) and symbolic standard deviation for Hydrology (Hydro), Atmospheric Dynamics (AtmDyn), Atmospheric Physics (AtmosPhy), Geophysics (GeoPhy), and Physical Oceanography (PhyOcean). *|
 
 
-- [] More Analysis PUT here
+Instruction-tuned models perform steadily on foundational tasks (such as simple meteorological problems), achieving accuracy rates between 58.36% and 64.93%. However, as task complexity increases, especially in tasks requiring complex reasoning, accuracy declines significantly. Notably, these models exhibit relative weaknesses when handling multi-step reasoning and interdisciplinary tasks.
+
+It is worth mentioning that DeepSeek-R1 achieved a comprehensive score of 89.4% in the Reasoning Model category, surpassing internationally renowned models like GPT-o1 and Gemini-2.0-Flash-Thinking-Exp. This result suggests that DeepSeek-R1 has a significant advantage over other models in handling tasks requiring reasoning capabilities. Specifically, DeepSeek-R1 outperforms other models in tasks involving multi-step reasoning, complex mathematical calculations, and the integration of interdisciplinary knowledge.
 
 
 
