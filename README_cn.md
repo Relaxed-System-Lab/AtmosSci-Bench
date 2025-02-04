@@ -4,7 +4,8 @@
 # ATMOSSCI-BENCH
 Click here to view English version: [EN Version](./README.md)
 
-Click here to view the Paper: [AstomsSciBench_Arxiv](docs/2025_AtmosSci-Bench_Arxiv.pdf)
+
+Click here to view the Paper: [AstomsSciBench_Arxiv](https://arxiv.org/abs/2502.01159)
 
 ## 1. 介绍
 ### AtmosSci-Bench：填补评估空白

@@ -4,7 +4,9 @@
 # AtmosSci-Bench
 Click here to view the Chinese version: [中文版](./README_cn.md)
 
-Click here to view the Paper: [AstomsSciBench_Arxiv](docs/2025_AtmosSci-Bench_Arxiv.pdf)
+<!-- Click here to view the Paper: [AstomsSciBench_Arxiv](docs/2025_AtmosSci-Bench_Arxiv.pdf)
+ -->
+ Click here to view the Paper: [AstomsSciBench_Arxiv](https://arxiv.org/abs/2502.01159)
 
 ## 1. Introduction
 ### ATMOSSCI-BENCH: Filling the Evaluation Gap
