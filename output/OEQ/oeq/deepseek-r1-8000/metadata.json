@@ -1,0 +1,59 @@
+{
+  "model": {
+    "name": "r1",
+    "base": "deepseek",
+    "details": {
+      "max_tokens": 8000,
+      "model_name": "deepseek-reasoner"
+    }
+  },
+  "dataset": {
+    "name": "OEQ",
+    "type": "OEQ",
+    "total_questions": 391
+  },
+  "timestamp": "2025-05-13 02:20:20",
+  "statistics": {
+    "total_questions": 391,
+    "successful_responses": 391,
+    "error_responses": 0,
+    "missing_questions": 0,
+    "completion_percentage": 100.0,
+    "processed_questions": 210,
+    "remaining_questions": 0
+  },
+  "parameters": {
+    "retries": 0,
+    "parallel_size": 1,
+    "max_tokens": 8000,
+    "no_fallback": false,
+    "worker_logging": false
+  },
+  "timing": {
+    "total_batches": 210,
+    "average_batch_time": 322.9853031419572,
+    "total_processing_time": 67826.91365981102,
+    "min_batch_time": 34.847349643707275,
+    "max_batch_time": 1707.7863268852234,
+    "median_batch_time": 272.73930978775024
+  },
+  "evaluation": {
+    "timestamp": "2025-05-13 02:20:20",
+    "accuracy": 0.29987212276214836,
+    "tolerance": 0.05,
+    "evaluators": [
+      "QuantityEvaluator",
+      "ExpressionEvaluator",
+      {
+        "name": "LLMEvaluator",
+        "model": "gpt-4o-mini"
+      }
+    ],
+    "disabled_evaluators": {
+      "quantity": false,
+      "expression": false,
+      "llm": false,
+      "mcq": true
+    }
+  }
+}

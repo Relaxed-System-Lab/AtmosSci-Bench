@@ -1,0 +1,53 @@
+{
+  "model": {
+    "name": "Qwen2.5-72B-GeoGPT",
+    "base": "huggingface",
+    "details": {
+      "max_tokens": 8000,
+      "gpu": "0,1,2,3",
+      "model_name": "GeoGPT-Research-Project/Qwen2.5-72B-GeoGPT"
+    }
+  },
+  "dataset": {
+    "name": "main_1-10",
+    "type": "MCQ",
+    "total_questions": 670
+  },
+  "timestamp": "2025-05-14 09:35:47",
+  "statistics": {
+    "total_questions": 670,
+    "successful_responses": 496,
+    "error_responses": 0,
+    "missing_questions": 174,
+    "completion_percentage": 74.03,
+    "processed_questions": 542,
+    "remaining_questions": 198
+  },
+  "parameters": {
+    "retries": 1,
+    "parallel_size": 8,
+    "max_tokens": 8000,
+    "no_fallback": false,
+    "worker_logging": false
+  },
+  "evaluation": {
+    "timestamp": "2025-05-14 09:35:47",
+    "accuracy": 0.3492537313432836,
+    "tolerance": 0.05,
+    "evaluators": [
+      "MCQEvaluator"
+    ],
+    "evaluator_stats": {
+      "MCQEvaluator": {
+        "correct": 234,
+        "total": 670,
+        "accuracy": 0.3492537313432836
+      }
+    },
+    "accuracy_stats": {
+      "true": 234,
+      "false": 436,
+      "null": 0
+    }
+  }
+}

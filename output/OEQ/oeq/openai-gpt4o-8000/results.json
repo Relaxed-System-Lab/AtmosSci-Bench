@@ -1,0 +1,44 @@
+{
+  "total_questions": 391,
+  "correct_questions": 88,
+  "overall_accuracy": 0.22506393861892582,
+  "question_types": {
+    "FPOP": {
+      "total": 70,
+      "correct": 9,
+      "accuracy": 0.12857142857142856
+    },
+    "HHSWP": {
+      "total": 208,
+      "correct": 36,
+      "accuracy": 0.17307692307692307
+    },
+    "PAC": {
+      "total": 113,
+      "correct": 43,
+      "accuracy": 0.3805309734513274
+    }
+  },
+  "evaluator_stats": {
+    "quantity": {
+      "true": 56,
+      "false": 180,
+      "null": 344
+    },
+    "expression": {
+      "true": 36,
+      "false": 463,
+      "null": 25
+    },
+    "llm": {
+      "true": 23,
+      "false": 506,
+      "null": 4
+    },
+    "mcq": {
+      "true": 0,
+      "false": 0,
+      "null": 0
+    }
+  }
+}

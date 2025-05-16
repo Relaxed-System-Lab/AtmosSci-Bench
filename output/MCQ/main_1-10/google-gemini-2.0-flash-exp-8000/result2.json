@@ -1,0 +1,54 @@
+{
+  "total_questions": 670,
+  "correct_questions": 430,
+  "overall_accuracy": 0.6417910447761194,
+  "question_types": {
+    "Hydrology": {
+      "total": 50,
+      "correct": 45,
+      "accuracy": 0.9
+    },
+    "Atmospheric Dynamics": {
+      "total": 370,
+      "correct": 215,
+      "accuracy": 0.581081081081081
+    },
+    "Atmospheric Physics": {
+      "total": 140,
+      "correct": 94,
+      "accuracy": 0.6714285714285714
+    },
+    "Geophysics": {
+      "total": 70,
+      "correct": 54,
+      "accuracy": 0.7714285714285715
+    },
+    "Physical Oceanography": {
+      "total": 40,
+      "correct": 22,
+      "accuracy": 0.55
+    }
+  },
+  "evaluator_stats": {
+    "quantity": {
+      "true": 0,
+      "false": 0,
+      "null": 0
+    },
+    "expression": {
+      "true": 0,
+      "false": 0,
+      "null": 0
+    },
+    "llm": {
+      "true": 0,
+      "false": 0,
+      "null": 0
+    },
+    "mcq": {
+      "true": 430,
+      "false": 240,
+      "null": 0
+    }
+  }
+}

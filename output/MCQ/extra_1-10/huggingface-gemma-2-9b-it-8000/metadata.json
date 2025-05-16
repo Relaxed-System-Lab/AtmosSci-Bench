@@ -1,0 +1,84 @@
+{
+  "model": {
+    "name": "gemma-2-9b-it",
+    "base": "huggingface",
+    "details": {
+      "max_tokens": 8000,
+      "gpu": "1",
+      "model_name": "google/gemma-2-9b-it"
+    }
+  },
+  "dataset": {
+    "name": "MCQ_merged",
+    "type": "MCQ",
+    "total_questions": 240
+  },
+  "timestamp": "2025-05-12 18:05:47",
+  "statistics": {
+    "total_questions": 240,
+    "successful_responses": 240,
+    "error_responses": 0,
+    "missing_questions": 0,
+    "completion_percentage": 100.0,
+    "processed_questions": 224,
+    "remaining_questions": 0
+  },
+  "parameters": {
+    "retries": 1,
+    "parallel_size": 8,
+    "max_tokens": 8000,
+    "no_fallback": false,
+    "worker_logging": true
+  },
+  "timing": {
+    "total_batches": 29,
+    "average_batch_time": 139.10241277464505,
+    "total_processing_time": 4033.9699704647064,
+    "min_batch_time": 75.61620688438416,
+    "max_batch_time": 354.3176939487457,
+    "median_batch_time": 125.47406888008118
+  },
+  "evaluation": {
+    "timestamp": "2025-05-12 18:05:47",
+    "accuracy": 0.3541666666666667,
+    "tolerance": 0.05,
+    "evaluators": [
+      "MCQEvaluator"
+    ],
+    "evaluator_stats": {
+      "MCQEvaluator": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      }
+    },
+    "disabled_evaluators": {
+      "quantity": true,
+      "expression": true,
+      "llm": true,
+      "mcq": false
+    },
+    "evaluator_result_stats": {
+      "quantity": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "expression": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "llm": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "mcq": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      }
+    }
+  }
+}

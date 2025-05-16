@@ -1,0 +1,33 @@
+{
+  "model": {
+    "name": "gemma-2-9b-it",
+    "base": "huggingface",
+    "details": {
+      "max_tokens": 8000,
+      "gpu": "3",
+      "model_name": "google/gemma-2-9b-it"
+    }
+  },
+  "dataset": {
+    "name": "OEQ",
+    "type": "OEQ",
+    "total_questions": 391
+  },
+  "timestamp": "2025-05-10 03:40:07",
+  "statistics": {
+    "total_questions": 391,
+    "successful_responses": 252,
+    "error_responses": 0,
+    "missing_questions": 139,
+    "completion_percentage": 100.0,
+    "processed_questions": 379,
+    "remaining_questions": 139
+  },
+  "parameters": {
+    "retries": 1,
+    "parallel_size": 8,
+    "max_tokens": 8000,
+    "no_fallback": false,
+    "worker_logging": true
+  }
+}

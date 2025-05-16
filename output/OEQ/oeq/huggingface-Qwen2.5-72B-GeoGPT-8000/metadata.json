@@ -1,0 +1,60 @@
+{
+  "model": {
+    "name": "Qwen2.5-72B-GeoGPT",
+    "base": "huggingface",
+    "details": {
+      "max_tokens": 8000,
+      "gpu": "0,1",
+      "model_name": "GeoGPT-Research-Project/Qwen2.5-72B-GeoGPT"
+    }
+  },
+  "dataset": {
+    "name": "OEQ",
+    "type": "OEQ",
+    "total_questions": 391
+  },
+  "timestamp": "2025-05-14 09:37:38",
+  "statistics": {
+    "total_questions": 391,
+    "successful_responses": 391,
+    "error_responses": 0,
+    "missing_questions": 0,
+    "completion_percentage": 100.0,
+    "processed_questions": 305,
+    "remaining_questions": 0
+  },
+  "parameters": {
+    "retries": 1,
+    "parallel_size": 1,
+    "max_tokens": 8000,
+    "no_fallback": false,
+    "worker_logging": false
+  },
+  "timing": {
+    "total_batches": 290,
+    "average_batch_time": 385.26244914038426,
+    "total_processing_time": 111726.11025071144,
+    "min_batch_time": 25.165871143341064,
+    "max_batch_time": 1484.2612385749817,
+    "median_batch_time": 391.82190990448
+  },
+  "evaluation": {
+    "timestamp": "2025-05-14 09:37:38",
+    "accuracy": 0.10823285836073561,
+    "tolerance": 0.05,
+    "evaluators": [
+      "QuantityEvaluator",
+      "ExpressionEvaluator",
+      {
+        "name": "LLMEvaluator",
+        "model": "gpt-4o-mini"
+      }
+    ],
+    "disabled_evaluators": {
+      "quantity": false,
+      "expression": false,
+      "llm": false,
+      "mcq": true
+    }
+  }
+}

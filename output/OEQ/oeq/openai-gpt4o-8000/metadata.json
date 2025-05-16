@@ -1,0 +1,59 @@
+{
+  "model": {
+    "name": "gpt4o",
+    "base": "openai",
+    "details": {
+      "max_tokens": 8000,
+      "model_name": "gpt-4o"
+    }
+  },
+  "dataset": {
+    "name": "OEQ",
+    "type": "OEQ",
+    "total_questions": 391
+  },
+  "timestamp": "2025-05-13 10:00:06",
+  "statistics": {
+    "total_questions": 391,
+    "successful_responses": 391,
+    "error_responses": 0,
+    "missing_questions": 0,
+    "completion_percentage": 100.0,
+    "processed_questions": 387,
+    "remaining_questions": 0
+  },
+  "parameters": {
+    "retries": 1,
+    "parallel_size": 8,
+    "max_tokens": 8000,
+    "no_fallback": false,
+    "worker_logging": false
+  },
+  "timing": {
+    "total_batches": 49,
+    "average_batch_time": 17.639839800036683,
+    "total_processing_time": 864.3521502017975,
+    "min_batch_time": 9.199220418930054,
+    "max_batch_time": 32.151005029678345,
+    "median_batch_time": 16.93152153491974
+  },
+  "evaluation": {
+    "timestamp": "2025-05-13 10:00:06",
+    "accuracy": 0.16840214346608207,
+    "tolerance": 0.05,
+    "evaluators": [
+      "QuantityEvaluator",
+      "ExpressionEvaluator",
+      {
+        "name": "LLMEvaluator",
+        "model": "gpt-4o-mini"
+      }
+    ],
+    "disabled_evaluators": {
+      "quantity": false,
+      "expression": false,
+      "llm": false,
+      "mcq": true
+    }
+  }
+}

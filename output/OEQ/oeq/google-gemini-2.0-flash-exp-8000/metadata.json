@@ -1,0 +1,59 @@
+{
+  "model": {
+    "name": "gemini-2.0-flash-exp",
+    "base": "google",
+    "details": {
+      "max_tokens": 8000,
+      "model_name": "gemini-2.0-flash-exp"
+    }
+  },
+  "dataset": {
+    "name": "OEQ",
+    "type": "OEQ",
+    "total_questions": 391
+  },
+  "timestamp": "2025-05-13 08:39:05",
+  "statistics": {
+    "total_questions": 391,
+    "successful_responses": 391,
+    "error_responses": 0,
+    "missing_questions": 0,
+    "completion_percentage": 100.0,
+    "processed_questions": 185,
+    "remaining_questions": 0
+  },
+  "parameters": {
+    "retries": 1,
+    "parallel_size": 4,
+    "max_tokens": 8000,
+    "no_fallback": false,
+    "worker_logging": false
+  },
+  "timing": {
+    "total_batches": 48,
+    "average_batch_time": 12.122923503319422,
+    "total_processing_time": 581.9003281593323,
+    "min_batch_time": 4.7153449058532715,
+    "max_batch_time": 19.79159903526306,
+    "median_batch_time": 14.125280022621155
+  },
+  "evaluation": {
+    "timestamp": "2025-05-13 08:39:05",
+    "accuracy": 0.23528802825478018,
+    "tolerance": 0.05,
+    "evaluators": [
+      "QuantityEvaluator",
+      "ExpressionEvaluator",
+      {
+        "name": "LLMEvaluator",
+        "model": "gpt-4o-mini"
+      }
+    ],
+    "disabled_evaluators": {
+      "quantity": false,
+      "expression": false,
+      "llm": false,
+      "mcq": true
+    }
+  }
+}

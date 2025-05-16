@@ -1,0 +1,44 @@
+{
+  "total_questions": 240,
+  "correct_questions": 217,
+  "overall_accuracy": 0.9041666666666667,
+  "question_types": {
+    "Hydrology": {
+      "total": 170,
+      "correct": 157,
+      "accuracy": 0.9235294117647059
+    },
+    "Geophysics": {
+      "total": 10,
+      "correct": 8,
+      "accuracy": 0.8
+    },
+    "Physical Oceanography": {
+      "total": 60,
+      "correct": 52,
+      "accuracy": 0.8666666666666667
+    }
+  },
+  "evaluator_stats": {
+    "quantity": {
+      "true": 0,
+      "false": 0,
+      "null": 0
+    },
+    "expression": {
+      "true": 0,
+      "false": 0,
+      "null": 0
+    },
+    "llm": {
+      "true": 0,
+      "false": 0,
+      "null": 0
+    },
+    "mcq": {
+      "true": 217,
+      "false": 23,
+      "null": 0
+    }
+  }
+}

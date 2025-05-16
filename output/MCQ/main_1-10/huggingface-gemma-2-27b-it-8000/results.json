@@ -1,0 +1,27 @@
+{
+  "total_questions": 670,
+  "average_score": 0.37910447761194027,
+  "evaluator_stats": {
+    "quantity": {
+      "true": 0,
+      "false": 0,
+      "null": 0
+    },
+    "expression": {
+      "true": 0,
+      "false": 0,
+      "null": 0
+    },
+    "llm": {
+      "true": 0,
+      "false": 0,
+      "null": 0
+    },
+    "mcq": {
+      "true": 254,
+      "false": 416,
+      "null": 0
+    }
+  },
+  "pending_llm_evaluation": 0
+}

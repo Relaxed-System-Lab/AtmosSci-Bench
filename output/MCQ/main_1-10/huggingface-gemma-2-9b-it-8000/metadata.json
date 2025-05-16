@@ -1,0 +1,75 @@
+{
+  "model": {
+    "name": "gemma-2-9b-it",
+    "base": "huggingface",
+    "details": {
+      "max_tokens": 8000,
+      "model_name": "gemma-2-9b-it"
+    }
+  },
+  "dataset": {
+    "name": "main_1-10",
+    "type": "MCQ",
+    "total_questions": 670
+  },
+  "timestamp": "2025-05-12 18:06:42",
+  "statistics": {
+    "total_questions": 670,
+    "successful_responses": 670,
+    "error_responses": 0,
+    "missing_questions": 0,
+    "completion_percentage": 100.0,
+    "processed_questions": 0,
+    "remaining_questions": 0
+  },
+  "parameters": {
+    "retries": 0,
+    "parallel_size": 8,
+    "max_tokens": 8000,
+    "no_fallback": false,
+    "worker_logging": false
+  },
+  "evaluation": {
+    "timestamp": "2025-05-12 18:06:42",
+    "accuracy": 0.18507462686567164,
+    "tolerance": 0.05,
+    "evaluators": [
+      "MCQEvaluator"
+    ],
+    "evaluator_stats": {
+      "MCQEvaluator": {
+        "correct": 124,
+        "total": 670,
+        "accuracy": 0.18507462686567164
+      }
+    },
+    "disabled_evaluators": {
+      "quantity": true,
+      "expression": true,
+      "llm": true,
+      "mcq": false
+    },
+    "evaluator_result_stats": {
+      "quantity": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "expression": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "llm": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "mcq": {
+        "true": 124,
+        "false": 546,
+        "null": 0
+      }
+    }
+  }
+}

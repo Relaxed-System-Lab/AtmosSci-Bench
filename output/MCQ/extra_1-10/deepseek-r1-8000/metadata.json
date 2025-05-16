@@ -1,0 +1,88 @@
+{
+  "model": {
+    "name": "r1",
+    "base": "deepseek",
+    "details": {
+      "max_tokens": 8000,
+      "model_name": "deepseek-reasoner"
+    }
+  },
+  "dataset": {
+    "name": "MCQ_merged",
+    "type": "MCQ",
+    "total_questions": 240
+  },
+  "timestamp": "2025-05-12 23:51:32",
+  "statistics": {
+    "total_questions": 240,
+    "successful_responses": 240,
+    "error_responses": 0,
+    "missing_questions": 0,
+    "completion_percentage": 100.0,
+    "processed_questions": 221,
+    "remaining_questions": 0
+  },
+  "parameters": {
+    "retries": 0,
+    "parallel_size": 1,
+    "max_tokens": 8000,
+    "no_fallback": false,
+    "worker_logging": false
+  },
+  "timing": {
+    "total_batches": 221,
+    "average_batch_time": 173.64437207808862,
+    "total_processing_time": 38375.40622925758,
+    "min_batch_time": 23.869176864624023,
+    "max_batch_time": 808.140040397644,
+    "median_batch_time": 154.61716735363007
+  },
+  "evaluation": {
+    "timestamp": "2025-05-12 23:51:32",
+    "accuracy": 0.975,
+    "tolerance": 0.05,
+    "evaluators": [
+      "MCQEvaluator"
+    ],
+    "evaluator_stats": {
+      "MCQEvaluator": {
+        "correct": 139,
+        "total": 140,
+        "accuracy": 0.9928571428571429
+      }
+    },
+    "accuracy_stats": {
+      "true": 139,
+      "false": 1,
+      "null": 0
+    },
+    "disabled_evaluators": {
+      "quantity": true,
+      "expression": true,
+      "llm": true,
+      "mcq": false
+    },
+    "evaluator_result_stats": {
+      "quantity": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "expression": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "llm": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "mcq": {
+        "true": 139,
+        "false": 1,
+        "null": 0
+      }
+    }
+  }
+}
