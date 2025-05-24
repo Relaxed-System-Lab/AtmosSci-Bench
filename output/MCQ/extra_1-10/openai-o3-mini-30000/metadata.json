@@ -1,0 +1,88 @@
+{
+  "model": {
+    "name": "o3-mini",
+    "base": "openai",
+    "details": {
+      "max_tokens": 30000,
+      "model_name": "o3-mini"
+    }
+  },
+  "dataset": {
+    "name": "MCQ_merged",
+    "type": "MCQ",
+    "total_questions": 240
+  },
+  "timestamp": "2025-05-13 17:31:08",
+  "statistics": {
+    "total_questions": 240,
+    "successful_responses": 240,
+    "error_responses": 0,
+    "missing_questions": 0,
+    "completion_percentage": 100.0,
+    "processed_questions": 200,
+    "remaining_questions": 0
+  },
+  "parameters": {
+    "retries": 1,
+    "parallel_size": 8,
+    "max_tokens": 30000,
+    "no_fallback": false,
+    "worker_logging": false
+  },
+  "timing": {
+    "total_batches": 26,
+    "average_batch_time": 58.76770189175239,
+    "total_processing_time": 1527.9602491855621,
+    "min_batch_time": 22.8885600566864,
+    "max_batch_time": 96.86635780334473,
+    "median_batch_time": 54.56235784292221
+  },
+  "evaluation": {
+    "timestamp": "2025-05-13 17:31:08",
+    "accuracy": 0.85,
+    "tolerance": 0.05,
+    "evaluators": [
+      "MCQEvaluator"
+    ],
+    "evaluator_stats": {
+      "MCQEvaluator": {
+        "correct": 121,
+        "total": 140,
+        "accuracy": 0.8642857142857143
+      }
+    },
+    "accuracy_stats": {
+      "true": 121,
+      "false": 19,
+      "null": 0
+    },
+    "disabled_evaluators": {
+      "quantity": true,
+      "expression": true,
+      "llm": true,
+      "mcq": false
+    },
+    "evaluator_result_stats": {
+      "quantity": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "expression": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "llm": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "mcq": {
+        "true": 121,
+        "false": 19,
+        "null": 0
+      }
+    }
+  }
+}

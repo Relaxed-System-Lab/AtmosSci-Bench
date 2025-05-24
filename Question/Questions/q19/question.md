@@ -1,2 +1,0 @@
-4.3. An air parcel at $30^{\circ} \mathrm{N}$ moves northward, conserving absolute vorticity. If its initial relative vorticity is $5 \times 10^{-5} \mathrm{~s}^{-1}$, what is its relative vorticity upon reaching $90^{\circ} \mathrm{N}$ ?
-Solution: Absolute vorticity is conserved for the column: $\zeta+f=$ Constant. Thus, $\zeta_{\text {final }}=\zeta_{\text {initial }}+\left(f_{\text {initial }}-f_{\text {final }}\right)$. Hence, $\zeta_{\text {final }}=-2 \Omega \sin (\pi / 2)+\left[5 \times 10^{-5}+2 \Omega \sin (\pi / 6)\right]=-2.3 \times 10^{-5} \mathrm{~s}^{-1}$.

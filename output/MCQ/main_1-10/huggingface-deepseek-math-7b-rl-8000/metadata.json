@@ -1,0 +1,75 @@
+{
+  "model": {
+    "name": "deepseek-math-7b-rl",
+    "base": "huggingface",
+    "details": {
+      "max_tokens": 8000,
+      "model_name": "deepseek-math-7b-rl"
+    }
+  },
+  "dataset": {
+    "name": "main_1-10",
+    "type": "MCQ",
+    "total_questions": 670
+  },
+  "timestamp": "2025-05-12 18:06:38",
+  "statistics": {
+    "total_questions": 670,
+    "successful_responses": 670,
+    "error_responses": 0,
+    "missing_questions": 0,
+    "completion_percentage": 100.0,
+    "processed_questions": 0,
+    "remaining_questions": 0
+  },
+  "parameters": {
+    "retries": 0,
+    "parallel_size": 2,
+    "max_tokens": 8000,
+    "no_fallback": false,
+    "worker_logging": false
+  },
+  "evaluation": {
+    "timestamp": "2025-05-12 18:06:38",
+    "accuracy": 0.2462686567164179,
+    "tolerance": 0.05,
+    "evaluators": [
+      "MCQEvaluator"
+    ],
+    "evaluator_stats": {
+      "MCQEvaluator": {
+        "correct": 165,
+        "total": 670,
+        "accuracy": 0.2462686567164179
+      }
+    },
+    "disabled_evaluators": {
+      "quantity": true,
+      "expression": true,
+      "llm": true,
+      "mcq": false
+    },
+    "evaluator_result_stats": {
+      "quantity": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "expression": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "llm": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "mcq": {
+        "true": 165,
+        "false": 505,
+        "null": 0
+      }
+    }
+  }
+}

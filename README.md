@@ -1,159 +1,180 @@
-<div style="text-align:center">
-<a href="https://hkust.edu.hk/"><img src="https://hkust.edu.hk/sites/default/files/images/UST_L3.svg" height="45"></a>
-
 # AtmosSci-Bench
-Click here to view the Chinese version: [中文版](./README_cn.md)
 
-<!-- Click here to view the Paper: [AstomsSciBench_Arxiv](docs/2025_AtmosSci-Bench_Arxiv.pdf)
- -->
- Click here to view the Paper: [AstomsSciBench_Arxiv](https://arxiv.org/abs/2502.01159)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3109/)
 
-## 1. Introduction
-### ATMOSSCI-BENCH: Filling the Evaluation Gap
-We Introduce ATMOSSCI-BENCH, a comprehensive MCQ(Multi-choices Question) benchmark framework of Atmospheric Science designed for systematically assess LLMs(Large Language Models) performance across five core categories of problems in this discipline:
-+ Hydrology examines the distribution, movement, and properties of water on Earth, including the water cycle, precipitation, rivers, lakes, and groundwater dynamics.
-+ Atmospheric dynamics focuses on the motion of the atmosphere, including large-scale weather systems, wind patterns, and governing forces of atmospheric circulation.
-+ Atmospheric physics covers physical processes such as radiation, thermodynamics, cloud formation, and energy transfer within the atmosphere.
-+ Geophysics encompasses the physical processes of the Earth, including its magnetic and gravitational fields, seismic activity, and internal structure.
-+ Physical oceanography investigates the physical properties and dynamics of ocean water, including currents, waves, tides, and ocean-atmosphere interactions
+## Introduction
 
-Our analysis provides some interesting insights into the reasoning and problem-solving capabilities of LLMs in atmospheric science. We believe ATMOSSCI-BENCH can serve as a critical step toward advancing LLM applications in climate service by offering a standard and rigorous evaluation framework.
+AtmosSci-Bench is a comprehensive benchmark framework for evaluating Large Language Models (LLMs) on atmospheric science tasks. This repository contains the code and resources for the paper: "AtmosSci-Bench: Evaluating the Recent Advance of Large Language Model for Atmospheric Science".
 
+The benchmark consists of:
+- **Multiple-Choice Questions (MCQ)**: Rigorous, physics-based questions generated using symbolic techniques
+- **Open-Ended Questions (OEQ)**: Problems requiring step-by-step reasoning and detailed explanations
+- **Evaluation Framework**: Tools for assessing LLM performance on atmospheric science tasks
 
-| ![Construction pipeline](images/pipeline.png) |
-|:--:|
-| *Firgure 1: Construction pipeline of our template-based question generation framework. Blocks on the middle left represent the question generation process, where variables are highlighted in different colors. Blocks on the middle right depict the automatic problem solver, which derives the answer from given variables. Bottom blocks illustrate an example of a generated question and its corresponding options. *|
+## Project Overview
 
+AtmosSci-Bench evaluates LLMs on their ability to understand and reason about atmospheric science concepts. The benchmark covers various domains including:
+- Atmospheric Dynamics
+- Hydrology
+- Geophysics
+- Climate Science
+- Meteorology
 
-## 2. Analysis Result & Insight
+## Getting Started
 
-The analysis result indicate that ATMOSSCI-BENCH effectively differentiates LLM performance across categories, with reasoning models demonstrating the highest proficiency. The results confirm that our benchmark successfully distinguishes LLM performance, particularly in assessing reasoning proficiency.
-
-We conduct a comprehensive evaluation of representative LLMs, categorized into four groups: instruction-tuned models, advanced reasoning models, math-augmented models, and domain-specific climate models. Here is the end-to-end evaluation results:
-
-| ![End-to-end Evaluation Results](images/result_table1.png) |
-|:--:|
-| *Table 1:  Comparison across four LLMs categories in terms of accuracy (%) and symbolic standard deviation for Hydrology (Hydro), Atmospheric Dynamics (AtmDyn), Atmospheric Physics (AtmosPhy), Geophysics (GeoPhy), and Physical Oceanography (PhyOcean). *|
-
-
-Instruction-tuned models perform steadily on foundational tasks (such as simple meteorological problems), achieving accuracy rates between 58.36% and 64.93%. However, as task complexity increases, especially in tasks requiring complex reasoning, accuracy declines significantly. Notably, these models exhibit relative weaknesses when handling multi-step reasoning and interdisciplinary tasks.
-
-It is worth mentioning that DeepSeek-R1 achieved a comprehensive score of 89.4% in the Reasoning Model category, surpassing internationally renowned models like GPT-o1 and Gemini-2.0-Flash-Thinking-Exp. This result suggests that DeepSeek-R1 has a significant advantage over other models in handling tasks requiring reasoning capabilities. Specifically, DeepSeek-R1 outperforms other models in tasks involving multi-step reasoning, complex mathematical calculations, and the integration of interdisciplinary knowledge.
-
-
-
-## 3. How to Use
 ### Prerequisites
-+ Python 3.10.9
-+ Dependencies listed in `requirements.txt`
+
+- Python 3.10.9
+- Dependencies listed in `requirements.txt`
+- GPU resources for local model inference (optional)
 
 ### Installation
-1. Clone this repository.
-2. Run `setup.sh`.
-3. Manually install any missing dependencies from `requirements.txt`, if necessary.
 
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/atmossci-bench.git
+   cd atmossci-bench
+   ```
 
-### Dataset Generation
-You can skip this section if you do not need to customize the dataset. The pre-generated dataset is available in Question/generated_datasets.
+2. Run the setup script:
+   ```bash
+   ./setup.sh
+   ```
 
-#### Generate Datasets
-1. Add new Question Templates in `Question/Questions`.
-2. Add all the Question Templates that you want to output in `Question/question_collection.py`.
-3. Set `BATCH_SIZE` which output how many question instances for each Question Templates in `Question/question_collection.py`.
-4. Set `PRECISION` at the top of `Question/Questions/question.py`
-5. Run `Question/save_to_csv.py` to generate the datasets.
-6. All the datasets are saved in `Question/generated_datasets`
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-#### Visualize Questions
-1. Run `streamlit run Question/visualize_all.py`
+## MCQ Generation Framework
 
+The MCQ Generation Framework creates rigorous, physics-based multiple-choice questions using symbolic techniques. It ensures questions test genuine reasoning ability rather than pattern matching.
 
-### Start Evaluation Experiment
-You can follow the example below to start your evaluation.
+### Key Features
 
-To test with a customized number of test cases in a single run, modify the parameters `--instance_start 1 --instance_end 10`, where `10` represents the total number of test cases. (Note: A dataset ending with `_i50` indicates that only 50 test cases are included.)
+- **Symbolic Question Generation**: Creates questions with variable parameters
+- **Template-Based Perturbation**: Uses placeholder variables that can be systematically instantiated
+- **Rule-Based Mechanism**: Ensures logical coherence and alignment with physical laws
+- **Diverse Question Types**: Covers various domains in atmospheric science
 
-To test with an alternative precision level, set the `--dataset` parameter to one of the following:
-+ `question_collection_low_precision_i50.csv`
-+ `question_collection_high_precision_i50.csv`
+### Generating MCQs
 
-Please `cd` to the `Script` folder and run following command:
+To generate the MCQ dataset:
+
+```bash
+./mcq_gen_framework/scripts/generate_mcq.sh
+```
+
+For more details, see [mcq_gen_framework/README.md](mcq_gen_framework/README.md).
+
+## Dataset
+
+The benchmark dataset is available in the `data/` directory. It includes:
+
+- **Main MCQ Set**: Core multiple-choice questions
+- **Extra MCQ Set**: Additional multiple-choice questions
+- **OEQ Set**: Open-ended questions requiring detailed explanations
+
+If you generate the dataset using the MCQ Generation Framework, the output will be placed in `data/`.
+
+## LLM Inference
+
+### Inference Framework
+
+#### API-based Models
+
+Models hosted by providers such as OpenAI, Google, Deepseek, and TogetherAI are accessed via public inference APIs.
+
+1. Create a `.env` file using `.env_example` as a template
+2. Add your API keys to the `.env` file
+3. Run inference using the provided scripts
+
+We use the `Ray` Python library for parallel execution of API requests, enabling efficient large-scale evaluation.
 
 #### Local Models
-##### Hugging face model:
 
-This is an example of running `Qwen/Qwen2.5-32B-Instruct`:
-```
-huggingface-cli login
-python3 ../Question/evaluation.py --model hugging_face --specific_model "Qwen/Qwen2.5-32B-Instruct"  --dataset question_collection_i50.csv --batch_size 8 --instance_start 1 --instance_end 10 --gpu="0,1,2,3,4,5,6,7" --max_new_token 8192
-```
+Models available through HuggingFace can be run locally using:
+- HuggingFace `transformers` library
+- `Accelerate` for GPU acceleration
 
-##### QwQ
+Our evaluation hardware setups include:
+- Single machine with 8×NVIDIA RTX 4090 GPUs
+- Two nodes with 4×NVIDIA A800 GPUs each
 
-```
-python3 ../Question/evaluation.py --model qwq --dataset question_collection_i50.csv --batch_size 8 --instance_start 1 --instance_end 10 --max_new_token 30000 --gpu="0,1,2,3,4,5,6,7"
-```
+Performance varies by model size:
+- 70B models: ~90 hours with batch size 4
+- 7B models: ~6 hours with batch size 64
 
+### Running Inference
 
-#### Calling APIs
-In API calls, the `batch_size` parameter specifies the number of processes invoking the API endpoint concurrently.
+All output is stored in the `/output` directory, with separate folders for each model and dataset.
 
-Please create `.env` and put your API_KEY:
-```
-DeepSeek_API_KEY = ""
-OPENAI_API_KEY = ""
-TOGETHER_API_KEY = ""
-FIREWORKS_API_KEY=""
-GEMINI_API_KEY=""
-```
+#### Using Existing Models
 
+1. Find the LLM name and base in `src/models/__init__.py` (BASE_REGISTRY)
+2. Run the appropriate script:
+   - API-based models:
+     ```bash
+     # Edit parameters in the script first
+     ./scripts/generate_api/generate.sh
+     ```
+   - Local models:
+     ```bash
+     # Edit parameters in the script first
+     ./scripts/generate_gpu/generate_2gpu.sh
+     ```
 
+#### Adding New Models
 
-##### Deepseek_R1 model:
-```
-python3 ../Question/evaluation.py --model deepseek_reasoner --dataset question_collection_i50.csv --batch_size 8 --instance_start 1 --instance_end 10 --max_new_token 30000
-```
+1. Add the model to the appropriate file:
+   - API-based: `src/models/api_base.py` and `src/models/__init__.py`
+   - Local-based: `src/models/local_base.py` and `src/models/__init__.py`
+2. Run inference using the scripts mentioned above
 
+## LLM Evaluation
 
-##### Deepseek_V3 model:
-```
-python3 ../Question/evaluation.py --model deepseek_v3 --dataset question_collection_i50.csv --batch_size 8 --instance_start 1 --instance_end 10 --max_new_token 30000
-```
+To evaluate model responses:
 
+1. Edit parameters in `scripts/evaluate/evaluate.sh`
+2. Run the evaluation script:
+   ```bash
+   ./scripts/evaluate/evaluate.sh
+   ```
 
-##### Fireworks:
-```
-python3 ../Question/evaluation.py --model fireworks --specific_model "accounts/fireworks/models/deepseek-r1" --dataset question_collection_i50.csv --batch_size 8 --instance_start 1 --instance_end 10 --max_new_token 30000
-```
+This creates `evaluation.jsonl` and `results.json` in the same folder as the inference output.
 
-##### gemini-2.0-flash-thinking-exp-01-21:
-```
-python3 ../Question/evaluation.py --model gemini --dataset question_collection_i50 --dataset question_collection_i50.csv --batch_size 8 --instance_start 1 --instance_end 10 --max_new_token 30000
-```
+## LLM Evaluation Analysis
 
+To analyze evaluation results:
 
-##### gpt-4o and gpt-4o-mini:
-```
-python3 ../Question/evaluation.py --model gpt-4o --specific_model "gpt-4o" --dataset question_collection_i50.csv --batch_size 8 --instance_start 1 --instance_end 10 --max_new_token 30000
-```
-```
-python3 ../Question/evaluation.py --model gpt-4o --specific_model "gpt-4o-mini" --dataset question_collection_i50.csv --batch_size 8 --instance_start 1 --instance_end 10 --max_new_token 30000
-```
+1. Ensure result consistency:
+   ```bash
+   python scripts/generate_result2.py
+   ```
 
-##### gpt-o1:
-```
-python3 ../Question/evaluation.py --model o1 --dataset question_collection_i50.csv --batch_size 8 --instance_start 1 --instance_end 10 --max_new_token 30000
-```
+2. Generate analysis results:
+   ```bash
+   python scripts/analysis/analysis_*.py
+   ```
 
-##### together:
-```
-python3 ../Question/evaluation.py --model together --specific_model "Qwen/QwQ-32B-Preview" --dataset question_collection_i50.csv --batch_size 8 --instance_start 1 --instance_end 10 --max_new_token 30000
-```
+3. Generate instance analysis:
+   ```bash
+   python scripts/instance_analysis/create_instance_acc.py
+   ```
 
-##### together with ray:
-```
-python3 ../Question/evaluation.py --model together_ray --specific_model "Qwen/QwQ-32B-Preview" --dataset question_collection_i50.csv --batch_size 8 --instance_start 1 --instance_end 10 --max_new_token 30000
-```
+## Data Hosting
 
+The dataset is hosted on Kaggle: [AtmosSci-Bench Dataset](https://kaggle.com/datasets/f1d2d8c65b440f5c527d30d31800c5211817cec354ffb47e5c45a829667d90df)
 
+Additional documentation:
+- Croissant metadata: `doc/croissant/atmossci-bench-metadata-croissant.json`
+- Validation report: `doc/croissant/report_croissant-validation_ATMOSSCI-BENCH.md`
 
+## Settings and Resources
+
+Detailed information about hyperparameters and experimental compute resources is available in [doc/settings.md](doc/settings.md).
+
+## Sources and Licenses
+
+Information about model and library usage licenses, data sources, and usage statements can be found in [doc/sources_license.md](doc/sources_license.md).

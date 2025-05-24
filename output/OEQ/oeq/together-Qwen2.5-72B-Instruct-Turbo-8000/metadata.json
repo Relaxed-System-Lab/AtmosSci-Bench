@@ -1,0 +1,59 @@
+{
+  "model": {
+    "name": "Qwen2.5-72B-Instruct-Turbo",
+    "base": "together",
+    "details": {
+      "max_tokens": 8000,
+      "model_name": "Qwen/Qwen2.5-72B-Instruct-Turbo"
+    }
+  },
+  "dataset": {
+    "name": "OEQ",
+    "type": "OEQ",
+    "total_questions": 391
+  },
+  "timestamp": "2025-05-13 11:38:17",
+  "statistics": {
+    "total_questions": 391,
+    "successful_responses": 391,
+    "error_responses": 0,
+    "missing_questions": 0,
+    "completion_percentage": 100.0,
+    "processed_questions": 391,
+    "remaining_questions": 0
+  },
+  "parameters": {
+    "retries": 0,
+    "parallel_size": 4,
+    "max_tokens": 8000,
+    "no_fallback": false,
+    "worker_logging": false
+  },
+  "timing": {
+    "total_batches": 99,
+    "average_batch_time": 26.226697962693493,
+    "total_processing_time": 2596.443098306656,
+    "min_batch_time": 7.874848127365112,
+    "max_batch_time": 79.62593507766724,
+    "median_batch_time": 19.705235719680786
+  },
+  "evaluation": {
+    "timestamp": "2025-05-13 11:38:17",
+    "accuracy": 0.1744489099987821,
+    "tolerance": 0.05,
+    "evaluators": [
+      "QuantityEvaluator",
+      "ExpressionEvaluator",
+      {
+        "name": "LLMEvaluator",
+        "model": "gpt-4o-mini"
+      }
+    ],
+    "disabled_evaluators": {
+      "quantity": false,
+      "expression": false,
+      "llm": false,
+      "mcq": true
+    }
+  }
+}

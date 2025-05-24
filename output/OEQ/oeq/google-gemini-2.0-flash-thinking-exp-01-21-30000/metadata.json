@@ -1,0 +1,98 @@
+{
+  "model": {
+    "name": "gemini-2.0-flash-thinking-exp-01-21",
+    "base": "google",
+    "details": {
+      "max_tokens": 30000,
+      "model_name": "gemini-2.0-flash-thinking-exp-01-21"
+    }
+  },
+  "dataset": {
+    "name": "OEQ",
+    "type": "OEQ",
+    "total_questions": 391
+  },
+  "timestamp": "2025-05-12 16:07:41",
+  "statistics": {
+    "total_questions": 391,
+    "successful_responses": 391,
+    "error_responses": 0,
+    "missing_questions": 0,
+    "completion_percentage": 100.0,
+    "processed_questions": 8,
+    "remaining_questions": 0
+  },
+  "parameters": {
+    "retries": 0,
+    "parallel_size": 4,
+    "max_tokens": 30000,
+    "no_fallback": false,
+    "worker_logging": false
+  },
+  "timing": {
+    "total_batches": 4,
+    "average_batch_time": 57.370606780052185,
+    "total_processing_time": 229.48242712020874,
+    "min_batch_time": 20.6525981426239,
+    "max_batch_time": 78.67458200454712,
+    "median_batch_time": 50.75328818957011
+  },
+  "evaluation": {
+    "timestamp": "2025-05-12 16:07:41",
+    "accuracy": 0.25899403239556695,
+    "tolerance": 0.05,
+    "evaluators": [
+      "QuantityEvaluator",
+      "ExpressionEvaluator",
+      {
+        "name": "LLMEvaluator",
+        "model": "gpt-4o-mini"
+      }
+    ],
+    "evaluator_stats": {
+      "QuantityEvaluator": {
+        "correct": 6,
+        "total": 90,
+        "accuracy": 0.06666666666666667
+      },
+      "ExpressionEvaluator": {
+        "correct": 1,
+        "total": 84,
+        "accuracy": 0.011904761904761904
+      },
+      "LLMEvaluator": {
+        "correct": 10,
+        "total": 83,
+        "accuracy": 0.12048192771084337
+      }
+    },
+    "disabled_evaluators": {
+      "quantity": false,
+      "expression": false,
+      "llm": false,
+      "mcq": true
+    },
+    "evaluator_result_stats": {
+      "quantity": {
+        "true": 6,
+        "false": 35,
+        "null": 49
+      },
+      "expression": {
+        "true": 1,
+        "false": 78,
+        "null": 5
+      },
+      "llm": {
+        "true": 10,
+        "false": 73,
+        "null": 0
+      },
+      "mcq": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      }
+    }
+  }
+}

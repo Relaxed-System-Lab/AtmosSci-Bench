@@ -1,0 +1,16 @@
+{
+  "total_questions": 670,
+  "average_score": 0.3492537313432836,
+  "evaluator_stats": {
+    "mcq": {
+      "true": 234,
+      "false": 436,
+      "null": 0
+    }
+  },
+  "accuracy_stats": {
+    "true": 234,
+    "false": 436,
+    "null": 0
+  }
+}

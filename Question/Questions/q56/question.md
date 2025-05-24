@@ -1,3 +1,0 @@
-3.18. Suppose that during the passage of a cyclonic storm the radius of curvature of the isobars is observed to be +800 km at a station where the wind is veering (turning clockwise) at a rate of $10^{\circ}$ per hour. What is the radius of curvature of the trajectory for an air parcel that is passing over the station? (The wind speed is $20 \mathrm{~m} \mathrm{~s}^{-1}$.)
-
-Solution: From equation (3.23) $R_{t}=V\left(\partial \beta / \partial t+V / R_{S}\right)^{-1}$. But $V=20 \mathrm{~m} / \mathrm{s}, R_{S}=8 \times 10^{5} \mathrm{~m}$, and $\partial \beta / \partial t=$ $-(\pi / 18)(1 / 3600) \mathrm{rad} \mathrm{s}^{-1}$. Thus, $R_{t}=-852 \mathrm{~km}$.

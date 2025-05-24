@@ -1,0 +1,32 @@
+{
+  "total_questions": 240,
+  "average_score": 0.7666666666666667,
+  "evaluator_stats": {
+    "quantity": {
+      "true": 0,
+      "false": 0,
+      "null": 0
+    },
+    "expression": {
+      "true": 0,
+      "false": 0,
+      "null": 0
+    },
+    "llm": {
+      "true": 0,
+      "false": 0,
+      "null": 0
+    },
+    "mcq": {
+      "true": 184,
+      "false": 56,
+      "null": 0
+    }
+  },
+  "accuracy_stats": {
+    "true": 184,
+    "false": 56,
+    "null": 0
+  },
+  "pending_llm_evaluation": 0
+}

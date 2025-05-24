@@ -1,0 +1,60 @@
+{
+  "model": {
+    "name": "Qwen3-235B-A22B-fp8-tput",
+    "base": "together",
+    "details": {
+      "max_tokens": 30000,
+      "model_name": "Qwen/Qwen3-235B-A22B-fp8-tput"
+    }
+  },
+  "dataset": {
+    "name": "MCQ_merged",
+    "type": "MCQ",
+    "total_questions": 240
+  },
+  "timestamp": "2025-05-14 10:43:36",
+  "statistics": {
+    "total_questions": 240,
+    "successful_responses": 240,
+    "error_responses": 0,
+    "missing_questions": 0,
+    "completion_percentage": 100.0,
+    "processed_questions": 240,
+    "remaining_questions": 0
+  },
+  "parameters": {
+    "retries": 1,
+    "parallel_size": 2,
+    "max_tokens": 30000,
+    "no_fallback": false,
+    "worker_logging": false
+  },
+  "timing": {
+    "total_batches": 120,
+    "average_batch_time": 265.68568636576333,
+    "total_processing_time": 31882.2823638916,
+    "min_batch_time": 59.73737978935242,
+    "max_batch_time": 2984.59886097908,
+    "median_batch_time": 218.82759147882462
+  },
+  "evaluation": {
+    "timestamp": "2025-05-14 10:43:36",
+    "accuracy": 0.9708333333333333,
+    "tolerance": 0.05,
+    "evaluators": [
+      "MCQEvaluator"
+    ],
+    "evaluator_stats": {
+      "MCQEvaluator": {
+        "correct": 140,
+        "total": 140,
+        "accuracy": 1.0
+      }
+    },
+    "accuracy_stats": {
+      "true": 140,
+      "false": 0,
+      "null": 0
+    }
+  }
+}

@@ -1,4 +1,0 @@
-4.1. What is the circulation about a square of 1000 km on a side for an easterly (that is, westward flowing) wind that decreases in magnitude toward the north at a rate of $10 \mathrm{~m} \mathrm{~s}^{-1}$ per 500 km ? What is the mean relative vorticity in the square?
-
-Solution: Vorticity is: $\zeta=\frac{\partial v}{\partial x}-\frac{\partial u}{\partial y}=0-\left(\frac{10 \mathrm{~m} \mathrm{~s}^{-1}}{5 \times 10^{5} \mathrm{~m}}\right)=-2 \times 10^{-5} \mathrm{~s}^{-1}$
-But, $C=\iint_{A} \zeta d A=\zeta_{m} A=\left(-2 \times 10^{-5} \mathrm{~s}^{-1}\right)\left(10^{12} \mathrm{~m}^{2}\right)=-2 \times 10^{7} \mathrm{~m}^{2} \mathrm{~s}^{-1}$.

@@ -1,9 +1,0 @@
-{
-    "total_infer_time": 54429.25979208946,
-    "model": "meta-llama/Llama-3.3-70B-Instruct",
-    "max_new_tokens": 8192,
-    "CUDA_VISIBLE_DEVICES": "0,1,2,3,4,5,6,7",
-    "Batch Number": 84,
-    "Batch Size": 8,
-    "total_time": 54429.839012145996
-}

@@ -1,0 +1,83 @@
+{
+  "model": {
+    "name": "QwQ-32B-Preview",
+    "base": "together",
+    "details": {
+      "max_tokens": 30000,
+      "model_name": "Qwen/QwQ-32B-Preview"
+    }
+  },
+  "dataset": {
+    "name": "MCQ_merged",
+    "type": "MCQ",
+    "total_questions": 240
+  },
+  "timestamp": "2025-05-12 20:46:48",
+  "statistics": {
+    "total_questions": 240,
+    "successful_responses": 240,
+    "error_responses": 0,
+    "missing_questions": 0,
+    "completion_percentage": 100.0,
+    "processed_questions": 240,
+    "remaining_questions": 0
+  },
+  "parameters": {
+    "retries": 0,
+    "parallel_size": 32,
+    "max_tokens": 30000,
+    "no_fallback": false,
+    "worker_logging": false
+  },
+  "timing": {
+    "total_batches": 9,
+    "average_batch_time": 527.0177930990855,
+    "total_processing_time": 4743.160137891769,
+    "min_batch_time": 174.42020511627197,
+    "max_batch_time": 796.7748370170593,
+    "median_batch_time": 564.3748086690903
+  },
+  "evaluation": {
+    "timestamp": "2025-05-12 20:46:48",
+    "accuracy": 0.9125,
+    "tolerance": 0.05,
+    "evaluators": [
+      "MCQEvaluator"
+    ],
+    "evaluator_stats": {
+      "MCQEvaluator": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": 0.0
+      }
+    },
+    "disabled_evaluators": {
+      "quantity": true,
+      "expression": true,
+      "llm": true,
+      "mcq": false
+    },
+    "evaluator_result_stats": {
+      "quantity": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "expression": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "llm": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "mcq": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      }
+    }
+  }
+}

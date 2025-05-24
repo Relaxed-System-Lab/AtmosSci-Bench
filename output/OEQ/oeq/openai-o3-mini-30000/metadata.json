@@ -1,0 +1,98 @@
+{
+  "model": {
+    "name": "o3-mini",
+    "base": "openai",
+    "details": {
+      "max_tokens": 30000,
+      "model_name": "o3-mini"
+    }
+  },
+  "dataset": {
+    "name": "OEQ",
+    "type": "OEQ",
+    "total_questions": 391
+  },
+  "timestamp": "2025-05-12 12:50:11",
+  "statistics": {
+    "total_questions": 391,
+    "successful_responses": 391,
+    "error_responses": 0,
+    "missing_questions": 0,
+    "completion_percentage": 100.0,
+    "processed_questions": 391,
+    "remaining_questions": 0
+  },
+  "parameters": {
+    "retries": 1,
+    "parallel_size": 8,
+    "max_tokens": 30000,
+    "no_fallback": false,
+    "worker_logging": false
+  },
+  "timing": {
+    "total_batches": 50,
+    "average_batch_time": 68.2500522518158,
+    "total_processing_time": 3412.50261259079,
+    "min_batch_time": 22.23443293571472,
+    "max_batch_time": 133.05042695999146,
+    "median_batch_time": 60.08455900351206
+  },
+  "evaluation": {
+    "timestamp": "2025-05-12 12:50:11",
+    "accuracy": 0.2784861770795274,
+    "tolerance": 0.05,
+    "evaluators": [
+      "QuantityEvaluator",
+      "ExpressionEvaluator",
+      {
+        "name": "LLMEvaluator",
+        "model": "gpt-4o-mini"
+      }
+    ],
+    "evaluator_stats": {
+      "QuantityEvaluator": {
+        "correct": 4,
+        "total": 92,
+        "accuracy": 0.043478260869565216
+      },
+      "ExpressionEvaluator": {
+        "correct": 2,
+        "total": 88,
+        "accuracy": 0.022727272727272728
+      },
+      "LLMEvaluator": {
+        "correct": 10,
+        "total": 86,
+        "accuracy": 0.11627906976744186
+      }
+    },
+    "disabled_evaluators": {
+      "quantity": false,
+      "expression": false,
+      "llm": false,
+      "mcq": true
+    },
+    "evaluator_result_stats": {
+      "quantity": {
+        "true": 4,
+        "false": 40,
+        "null": 48
+      },
+      "expression": {
+        "true": 2,
+        "false": 83,
+        "null": 3
+      },
+      "llm": {
+        "true": 10,
+        "false": 75,
+        "null": 1
+      },
+      "mcq": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      }
+    }
+  }
+}

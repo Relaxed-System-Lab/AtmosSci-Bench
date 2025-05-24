@@ -1,9 +1,0 @@
-{
-    "total_infer_time": 46955.060333013535,
-    "model": "eci-io/climategpt-7b",
-    "max_new_tokens": 4096,
-    "CUDA_VISIBLE_DEVICES": "0,1,2,3,4,5,6,7",
-    "Batch Number": 335,
-    "Batch Size": 2,
-    "total_time": 46956.917160749435
-}

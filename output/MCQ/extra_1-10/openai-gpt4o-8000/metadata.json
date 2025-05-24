@@ -1,0 +1,88 @@
+{
+  "model": {
+    "name": "gpt4o",
+    "base": "openai",
+    "details": {
+      "max_tokens": 8000,
+      "model_name": "gpt-4o"
+    }
+  },
+  "dataset": {
+    "name": "MCQ_merged",
+    "type": "MCQ",
+    "total_questions": 240
+  },
+  "timestamp": "2025-05-13 09:57:01",
+  "statistics": {
+    "total_questions": 240,
+    "successful_responses": 240,
+    "error_responses": 0,
+    "missing_questions": 0,
+    "completion_percentage": 100.0,
+    "processed_questions": 240,
+    "remaining_questions": 0
+  },
+  "parameters": {
+    "retries": 1,
+    "parallel_size": 8,
+    "max_tokens": 8000,
+    "no_fallback": false,
+    "worker_logging": false
+  },
+  "timing": {
+    "total_batches": 31,
+    "average_batch_time": 12.299005508422852,
+    "total_processing_time": 381.2691707611084,
+    "min_batch_time": 8.279579877853394,
+    "max_batch_time": 23.220354080200195,
+    "median_batch_time": 11.751883685588837
+  },
+  "evaluation": {
+    "timestamp": "2025-05-13 09:57:01",
+    "accuracy": 0.7416666666666667,
+    "tolerance": 0.05,
+    "evaluators": [
+      "MCQEvaluator"
+    ],
+    "evaluator_stats": {
+      "MCQEvaluator": {
+        "correct": 116,
+        "total": 140,
+        "accuracy": 0.8285714285714286
+      }
+    },
+    "accuracy_stats": {
+      "true": 116,
+      "false": 24,
+      "null": 0
+    },
+    "disabled_evaluators": {
+      "quantity": true,
+      "expression": true,
+      "llm": true,
+      "mcq": false
+    },
+    "evaluator_result_stats": {
+      "quantity": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "expression": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "llm": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "mcq": {
+        "true": 116,
+        "false": 24,
+        "null": 0
+      }
+    }
+  }
+}

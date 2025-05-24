@@ -1,6 +1,0 @@
-2.2. The temperature at a point 50 km north of a station is $3^{\circ} \mathrm{C}$ cooler than at the station. If the wind is blowing from the northeast at $20 \mathrm{~m} \mathrm{~s}^{-1}$ and the air is being heated by radiation at the rate of $1^{\circ} \mathrm{Ch}^{-1}$, what is the local temperature change at the station?
-
-Solution: $\frac{\partial T}{\partial t}=\frac{D T}{D t}-\mathbf{V} \cdot \nabla T$, where here $\frac{D T}{D t}=J=1^{\circ} \mathrm{Ch}^{-1}$. Now, $\mathbf{V} \cdot \nabla T=\left(20 \mathrm{~m} \mathrm{~s}^{-1}\right)\left(3^{\circ} \mathrm{C} / 5 \times 10^{4} \mathrm{~m}\right)(1 / \sqrt{2})=$ $8.47 \times 10^{-4 \circ} \mathrm{C} \mathrm{s}^{-1}$ or $3.05^{\circ} \mathrm{C} \mathrm{h}^{-1}$. Thus, $\partial T / \partial t=1{ }^{\circ} \mathrm{C} / \mathrm{h}-3.05^{\circ} \mathrm{C} / \mathrm{h}=-2.05^{\circ} \mathrm{C} / \mathrm{h}$.
-![](https://cdn.mathpix.com/cropped/2024_11_16_1064db4c1a62f75e628eg-07.jpg?height=250&width=473&top_left_y=1832&top_left_x=861)
-
-FIGURE 2.2

@@ -1,0 +1,88 @@
+{
+  "model": {
+    "name": "Llama-3.1-405B-Instruct-Turbo",
+    "base": "together",
+    "details": {
+      "max_tokens": 8000,
+      "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo"
+    }
+  },
+  "dataset": {
+    "name": "MCQ_merged",
+    "type": "MCQ",
+    "total_questions": 240
+  },
+  "timestamp": "2025-05-13 17:11:27",
+  "statistics": {
+    "total_questions": 240,
+    "successful_responses": 240,
+    "error_responses": 0,
+    "missing_questions": 0,
+    "completion_percentage": 100.0,
+    "processed_questions": 240,
+    "remaining_questions": 0
+  },
+  "parameters": {
+    "retries": 0,
+    "parallel_size": 4,
+    "max_tokens": 8000,
+    "no_fallback": false,
+    "worker_logging": false
+  },
+  "timing": {
+    "total_batches": 60,
+    "average_batch_time": 65.72211472590764,
+    "total_processing_time": 3943.3268835544586,
+    "min_batch_time": 21.775133848190308,
+    "max_batch_time": 616.0663449764252,
+    "median_batch_time": 36.98359441757202
+  },
+  "evaluation": {
+    "timestamp": "2025-05-13 17:11:27",
+    "accuracy": 0.7083333333333334,
+    "tolerance": 0.05,
+    "evaluators": [
+      "MCQEvaluator"
+    ],
+    "evaluator_stats": {
+      "MCQEvaluator": {
+        "correct": 111,
+        "total": 140,
+        "accuracy": 0.7928571428571428
+      }
+    },
+    "accuracy_stats": {
+      "true": 111,
+      "false": 29,
+      "null": 0
+    },
+    "disabled_evaluators": {
+      "quantity": true,
+      "expression": true,
+      "llm": true,
+      "mcq": false
+    },
+    "evaluator_result_stats": {
+      "quantity": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "expression": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "llm": {
+        "true": 0,
+        "false": 0,
+        "null": 0
+      },
+      "mcq": {
+        "true": 111,
+        "false": 29,
+        "null": 0
+      }
+    }
+  }
+}

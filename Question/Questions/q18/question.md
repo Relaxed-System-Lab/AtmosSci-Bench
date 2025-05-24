@@ -1,3 +1,0 @@
-4.2. A cylindrical column of air at $30^{\circ} \mathrm{N}$ with radius 100 km expands to twice its original radius. If the air is initially at rest, what is the mean tangential velocity at the perimeter after expansion?
-
-Solution: From the circulation theorem $C+(2 \Omega \sin \phi) A=$ Constant. Thus, $C_{\text {final }}=2 \Omega \sin \phi\left(A_{\text {initial }}-A_{\text {final }}\right)+C_{\text {initial }}$. But $A_{\text {initial }}=\pi r_{i}^{2}$, and $A_{\text {final }}=\pi r_{f}^{2}$. But $r_{f}=2 r_{i}$. Therefore, $C_{\text {final }}=2 \Omega \sin \phi\left(-3 \pi r_{i}^{2}\right)$. Now $V=C_{\text {final }} /\left(2 \pi r_{f}\right)$, so $V=2 \Omega \sin \phi\left(-3 r_{i} / 4\right)=-5.5 \mathrm{~m} \mathrm{~s}^{-1}$ (anticyclonic).

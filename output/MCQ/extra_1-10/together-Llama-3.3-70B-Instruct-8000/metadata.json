@@ -1,0 +1,40 @@
+{
+  "model": {
+    "name": "Llama-3.3-70B-Instruct",
+    "base": "together",
+    "details": {
+      "max_tokens": 8000,
+      "model_name": "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+    }
+  },
+  "dataset": {
+    "name": "MCQ_merged",
+    "type": "MCQ",
+    "total_questions": 240
+  },
+  "timestamp": "2025-05-13 09:30:31",
+  "statistics": {
+    "total_questions": 240,
+    "successful_responses": 240,
+    "error_responses": 0,
+    "missing_questions": 0,
+    "completion_percentage": 100.0,
+    "processed_questions": 240,
+    "remaining_questions": 0
+  },
+  "parameters": {
+    "retries": 0,
+    "parallel_size": 4,
+    "max_tokens": 8000,
+    "no_fallback": false,
+    "worker_logging": false
+  },
+  "timing": {
+    "total_batches": 60,
+    "average_batch_time": 10.283204710483552,
+    "total_processing_time": 616.9922826290131,
+    "min_batch_time": 3.909698724746704,
+    "max_batch_time": 24.77863907814026,
+    "median_batch_time": 9.709665536880493
+  }
+}

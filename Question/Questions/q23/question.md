@@ -1,3 +1,0 @@
-9.4. An air parcel at 920 hPa with temperature $20^{\circ} \mathrm{C}$ is saturated (mixing ratio $16 \mathrm{~g} \mathrm{~kg}^{-1}$ ). Compute $\theta_{e}$ for the parcel.
-
-Solution: $\theta_{e}=\theta \exp \left[\left(L_{c} q_{s}\right) /\left(c_{p} T\right)\right]$, where $\theta=T\left(p_{s} / p\right)^{R / c_{p}}$. Then, $\ln \theta_{e}=\ln T+\frac{R}{c_{p}} \ln \left(\frac{p_{s}}{p}\right)+\left(\frac{L_{c} q_{s}}{c_{p} T}\right)=\ln (293.15)+$ $\frac{2}{7} \ln \left(\frac{1000}{920}\right)+\left[\frac{2.5 \times 10^{6}\left(16 \times 10^{-3}\right)}{(1004)(293.15)}\right]$ so that $\ln \theta_{e}=5.84$, and $\theta_{e}=344 \mathrm{~K}$.
