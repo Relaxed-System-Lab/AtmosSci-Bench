@@ -7,12 +7,13 @@
 
 AtmosSci-Bench is a comprehensive benchmark framework for evaluating Large Language Models (LLMs) on atmospheric science tasks. This repository contains the code and resources for the paper: "AtmosSci-Bench: Evaluating the Recent Advance of Large Language Model for Atmospheric Science".
 
+## Project Overview
+
 The benchmark consists of:
 - **Multiple-Choice Questions (MCQ)**: Rigorous, physics-based questions generated using symbolic techniques
 - **Open-Ended Questions (OEQ)**: Problems requiring step-by-step reasoning and detailed explanations
 - **Evaluation Framework**: Tools for assessing LLM performance on atmospheric science tasks
 
-## Project Overview
 
 AtmosSci-Bench evaluates LLMs on their ability to understand and reason about atmospheric science concepts. The benchmark covers various domains including:
 - Atmospheric Dynamics
@@ -20,6 +21,10 @@ AtmosSci-Bench evaluates LLMs on their ability to understand and reason about at
 - Geophysics
 - Climate Science
 - Meteorology
+
+The overview of AtmosSci-Bench:
+![Overview of AtmosSci-Bench](image/overview.png)
+
 
 ## Getting Started
 
