@@ -169,6 +169,24 @@ To analyze evaluation results:
    python scripts/instance_analysis/create_instance_acc.py
    ```
 
+## Evaluation Results
+
+### End-to-end Evaluation Results
+Accuracy (%) and symbolic standard deviation (SymStd.) comparison across four LLM
+categories on the MCQ10 dataset.
+![mcq10_result](image/mcq10_result.png)
+
+Accuracy (%) comparison across four LLM categories on the MCQ10_EXT dataset
+![mcq10_ext_result](image/mcq10_ext_result.png)
+
+Accuracy (%) comparison across four LLM categories on the OEQ dataset.
+![oeq_result](image/oeq_result.png)
+
+
+
+
+
+
 ## Data Hosting
 
 The dataset is hosted on Kaggle: [AtmosSci-Bench Dataset](https://kaggle.com/datasets/f1d2d8c65b440f5c527d30d31800c5211817cec354ffb47e5c45a829667d90df)
