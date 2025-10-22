@@ -33,7 +33,7 @@ AtmosSci-Bench evaluates LLMs on their ability to understand and reason about at
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/jimschenchen/AtmosSci-Bench-NeurIPS2025.git
+   git clone https://github.com/Relaxed-System-Lab/AtmosSci-Bench.git
    cd atmossci-bench
    ```
 
