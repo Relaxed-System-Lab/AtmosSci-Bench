@@ -33,12 +33,13 @@ AtmosSci-Bench evaluates LLMs on their ability to understand and reason about at
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/atmossci-bench.git
+   git clone https://github.com/jimschenchen/AtmosSci-Bench-NeurIPS2025.git
    cd atmossci-bench
    ```
 
 2. Run the setup script:
    ```bash
+   chmod +x ./setup.sh
    ./setup.sh
    ```
 
