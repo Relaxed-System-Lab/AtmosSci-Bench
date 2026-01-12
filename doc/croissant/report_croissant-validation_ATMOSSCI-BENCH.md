@@ -2,7 +2,7 @@
 ================================================================================
 ## VALIDATION RESULTS
 --------------------------------------------------------------------------------
-Starting validation for file: atmossci-bench-metadata-croissant.json
+Starting validation for file: atmossci-bench-metadata.json
 ### JSON Format Validation
 ✓
 The file is valid JSON.
@@ -10,36 +10,11 @@ The file is valid JSON.
 ✓
 The dataset passes Croissant validation.
 ### Records Generation Test
-?
-Record set 'extra_1-10.csv' failed due to generation error:
-
-```text
-An error occured during the streaming generation of the dataset, more specifically during the operation Download(archive.zip)
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.10/site-packages/mlcroissant/_src/operation_graph/execute.py", line 119, in execute_operations_in_streaming
-    result = operation.call(result)
-  File "/usr/local/lib/python3.10/site-packages/mlcroissant/_src/operation_graph/operations/download.py", line 232, in call
-    self._download_from_http(filepath)
-  File "/usr/local/lib/python3.10/site-packages/mlcroissant/_src/operation_graph/operations/download.py", line 191, in _download_from_http
-    response.raise_for_status()
-  File "/usr/local/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://www.kaggle.com/api/v1/datasets/download/jimschenchen/atmossci-bench
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/user/app/validation.py", line 77, in validate_records
-    raise result  # re-raise actual error outside timeout
-  File "/home/user/app/validation.py", line 51, in try_generate_record
-    for i, record in enumerate(record_collection):
-  File "/usr/local/lib/python3.10/site-packages/mlcroissant/_src/datasets.py", line 166, in __iter__
-    yield from execute_operations_in_streaming(
-  File "/usr/local/lib/python3.10/site-packages/mlcroissant/_src/operation_graph/execute.py", line 121, in execute_operations_in_streaming
-    raise GenerationError(
-mlcroissant._src.core.issues.GenerationError: An error occured during the streaming generation of the dataset, more specifically during the operation Download(archive.zip)
-```
+✓
+Record set 'extra_1-10.csv' passed validation.
+Record set 'main_1-10.csv' passed validation.
+Record set 'main_11-30.csv' passed validation.
+Record set 'oeq.csv' passed validation.
 ## JSON-LD REFERENCE
 ================================================================================
 ```json
@@ -90,7 +65,7 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
     "wd": "https://www.wikidata.org/wiki/",
     "@base": "cr_base_iri/"
   },
-  "alternateName": "",
+  "alternateName": "Dataset for paper \"ATMOSSCI-BENCH: Evaluating the Recent Advance of LLM\"",
   "conformsTo": "http://mlcommons.org/croissant/1.0",
   "license": {
     "@type": "sc:CreativeWork",
@@ -115,7 +90,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
       "encodingFormat": "text/csv",
       "@id": "extra_1-10.csv_fileobject",
       "@type": "cr:FileObject",
-      "name": "extra_1-10.csv"
+      "name": "extra_1-10.csv",
+      "description": "Additional multiple-choice questions set MCQ10_EXT"
     },
     {
       "contentUrl": "main_1-10.csv",
@@ -125,7 +101,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
       "encodingFormat": "text/csv",
       "@id": "main_1-10.csv_fileobject",
       "@type": "cr:FileObject",
-      "name": "main_1-10.csv"
+      "name": "main_1-10.csv",
+      "description": "MCQ10 Set: Core multiple-choice questions"
     },
     {
       "contentUrl": "main_11-30.csv",
@@ -135,7 +112,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
       "encodingFormat": "text/csv",
       "@id": "main_11-30.csv_fileobject",
       "@type": "cr:FileObject",
-      "name": "main_11-30.csv"
+      "name": "main_11-30.csv",
+      "description": "MCQ30 Set: Core multiple-choice questions for our symbolic variation experiment"
     },
     {
       "contentUrl": "oeq.csv",
@@ -145,7 +123,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
       "encodingFormat": "text/csv",
       "@id": "oeq.csv_fileobject",
       "@type": "cr:FileObject",
-      "name": "oeq.csv"
+      "name": "oeq.csv",
+      "description": "OEQ Set: Open-ended questions that are used to probe open-ended reasoning."
     }
   ],
   "recordSet": [
@@ -165,7 +144,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "extra_1-10.csv/answer",
           "@type": "cr:Field",
-          "name": "answer"
+          "name": "answer",
+          "description": ""
         },
         {
           "dataType": [
@@ -181,7 +161,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "extra_1-10.csv/correct_option",
           "@type": "cr:Field",
-          "name": "correct_option"
+          "name": "correct_option",
+          "description": ""
         },
         {
           "dataType": [
@@ -197,7 +178,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "extra_1-10.csv/id",
           "@type": "cr:Field",
-          "name": "id"
+          "name": "id",
+          "description": ""
         },
         {
           "dataType": [
@@ -213,7 +195,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "extra_1-10.csv/options",
           "@type": "cr:Field",
-          "name": "options"
+          "name": "options",
+          "description": ""
         },
         {
           "dataType": [
@@ -229,7 +212,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "extra_1-10.csv/problem",
           "@type": "cr:Field",
-          "name": "problem"
+          "name": "problem",
+          "description": ""
         },
         {
           "dataType": [
@@ -245,12 +229,14 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "extra_1-10.csv/type",
           "@type": "cr:Field",
-          "name": "type"
+          "name": "type",
+          "description": ""
         }
       ],
       "@id": "extra_1-10.csv",
       "@type": "cr:RecordSet",
-      "name": "extra_1-10.csv"
+      "name": "extra_1-10.csv",
+      "description": "Additional multiple-choice questions set MCQ10_EXT"
     },
     {
       "field": [
@@ -268,7 +254,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "main_1-10.csv/answer",
           "@type": "cr:Field",
-          "name": "answer"
+          "name": "answer",
+          "description": ""
         },
         {
           "dataType": [
@@ -284,7 +271,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "main_1-10.csv/correct_option",
           "@type": "cr:Field",
-          "name": "correct_option"
+          "name": "correct_option",
+          "description": ""
         },
         {
           "dataType": [
@@ -300,7 +288,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "main_1-10.csv/id",
           "@type": "cr:Field",
-          "name": "id"
+          "name": "id",
+          "description": ""
         },
         {
           "dataType": [
@@ -316,7 +305,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "main_1-10.csv/options",
           "@type": "cr:Field",
-          "name": "options"
+          "name": "options",
+          "description": ""
         },
         {
           "dataType": [
@@ -332,7 +322,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "main_1-10.csv/problem",
           "@type": "cr:Field",
-          "name": "problem"
+          "name": "problem",
+          "description": ""
         },
         {
           "dataType": [
@@ -348,12 +339,14 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "main_1-10.csv/type",
           "@type": "cr:Field",
-          "name": "type"
+          "name": "type",
+          "description": ""
         }
       ],
       "@id": "main_1-10.csv",
       "@type": "cr:RecordSet",
-      "name": "main_1-10.csv"
+      "name": "main_1-10.csv",
+      "description": "MCQ10 Set: Core multiple-choice questions"
     },
     {
       "field": [
@@ -371,7 +364,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "main_11-30.csv/answer",
           "@type": "cr:Field",
-          "name": "answer"
+          "name": "answer",
+          "description": ""
         },
         {
           "dataType": [
@@ -387,7 +381,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "main_11-30.csv/correct_option",
           "@type": "cr:Field",
-          "name": "correct_option"
+          "name": "correct_option",
+          "description": ""
         },
         {
           "dataType": [
@@ -403,7 +398,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "main_11-30.csv/id",
           "@type": "cr:Field",
-          "name": "id"
+          "name": "id",
+          "description": ""
         },
         {
           "dataType": [
@@ -419,7 +415,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "main_11-30.csv/options",
           "@type": "cr:Field",
-          "name": "options"
+          "name": "options",
+          "description": ""
         },
         {
           "dataType": [
@@ -435,7 +432,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "main_11-30.csv/problem",
           "@type": "cr:Field",
-          "name": "problem"
+          "name": "problem",
+          "description": ""
         },
         {
           "dataType": [
@@ -451,12 +449,14 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "main_11-30.csv/type",
           "@type": "cr:Field",
-          "name": "type"
+          "name": "type",
+          "description": ""
         }
       ],
       "@id": "main_11-30.csv",
       "@type": "cr:RecordSet",
-      "name": "main_11-30.csv"
+      "name": "main_11-30.csv",
+      "description": "MCQ30 Set: Core multiple-choice questions for our symbolic variation experiment"
     },
     {
       "field": [
@@ -474,7 +474,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "oeq.csv/answer",
           "@type": "cr:Field",
-          "name": "answer"
+          "name": "answer",
+          "description": ""
         },
         {
           "dataType": [
@@ -490,7 +491,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "oeq.csv/id",
           "@type": "cr:Field",
-          "name": "id"
+          "name": "id",
+          "description": ""
         },
         {
           "dataType": [
@@ -506,7 +508,8 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "oeq.csv/problem",
           "@type": "cr:Field",
-          "name": "problem"
+          "name": "problem",
+          "description": ""
         },
         {
           "dataType": [
@@ -522,12 +525,14 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
           },
           "@id": "oeq.csv/type",
           "@type": "cr:Field",
-          "name": "type"
+          "name": "type",
+          "description": ""
         }
       ],
       "@id": "oeq.csv",
       "@type": "cr:RecordSet",
-      "name": "oeq.csv"
+      "name": "oeq.csv",
+      "description": "OEQ Set: Open-ended questions that are used to probe open-ended reasoning."
     }
   ],
   "keywords": [
@@ -548,7 +553,7 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
     "@type": "sc:Person",
     "name": "Zack",
     "url": "/jimschenchen",
-    "image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/9046053-gr.jpg"
+    "image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/9046053-kg.jpg?t=2025-05-16-08-42-44"
   },
   "publisher": {
     "@type": "sc:Organization",
@@ -558,9 +563,10 @@ mlcroissant._src.core.issues.GenerationError: An error occured during the stream
   },
   "thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-78.png-9046053/dataset-card.png",
   "dateModified": "2025-05-16T07:21:07.33",
+  "datePublished": "2025-10-22T09:03:53.502552",
   "@type": "sc:Dataset",
   "name": "ATMOSSCI-BENCH",
   "url": "https://www.kaggle.com/datasets/jimschenchen/atmossci-bench",
-  "description": "Dataset for paper \"ATMOSSCI-BENCH: Evaluating the Recent Advance of Large Language Model\nfor Atmospheric Science.\""
+  "description": "# Introduction\nAtmosSci-Bench is a comprehensive benchmark framework for evaluating Large Language Models (LLMs) on atmospheric science tasks. This dataset contains the data for the paper: \"AtmosSci-Bench: Evaluating the Recent Advance of Large Language Model for Atmospheric Science\".\n\nIt includes:\n- MCQ10 Set (main_1-10.csv): Core multiple-choice questions\n- MCQ30 Set (main_1-10.csv + main_11-30.csv): Core multiple-choice questions for our symbolic variation experiment.\n- MCQ10_EXT Set (extra_1-10.csv): Additional multiple-choice questions\n- OEQ Set (oeq.csv): Open-ended questions that are used to probe open-ended reasoning.\n"
 }
 ```
